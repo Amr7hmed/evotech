@@ -48,11 +48,6 @@ function NavbarUpper() {
                 <FontAwesomeIcon icon={faInstagram} />
               </span>
             </li>
-            <li>
-                <span>
-                    AR
-                </span>
-            </li>
           </ul>
         </div>
       </div>

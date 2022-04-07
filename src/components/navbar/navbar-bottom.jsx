@@ -27,13 +27,23 @@ function NavbarBottom() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link
+                About Us
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+              our services
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+              Contact us
               </a>
             </li>
           </ul>
-        </div>
         <div className="d-flex">
           AR
+        </div>
         </div>
       </div>
     </nav>

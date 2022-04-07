@@ -4,11 +4,14 @@ $white: white;
 $gray: #c2c1c1;
 $main-color: #193A63;
 $secnd-color: #e38519;
-$SansDisplay: 'Noto Sans Display', sans-serif;
+$fontSansDisplay: 'Noto Sans Display', sans-serif;
+$fontOpenSans:  'Open Sans', sans-serif;
+$fontmontserrat: 'Montserrat', sans-serif;
 
 // Media Theme
 $mobile-screen: 767px;
-$tab-screen: 992px;
+$tab-screen: 991px;
+$web-screen: 1199px;
 
 // Font Size Theme
 $main-size: 1rem;
