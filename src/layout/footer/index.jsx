@@ -1,7 +1,7 @@
 import React from "react";
-import FooterContactus from "./footer_contactus";
-import FooterList from "./footer_list";
-import FooterLogo from "./footer_logo";
+import FooterContactus from "../../components/footer/footer_contactus";
+import FooterList from "../../components/footer/footer_list";
+import FooterLogo from "../../components/footer/footer_logo";
 
 function Footer() {
   return (

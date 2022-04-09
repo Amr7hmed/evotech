@@ -1,0 +1,106 @@
+// Mobile Menu
+.vs-menu-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+  width: 0;
+  height: 100vh;
+  transition: all ease 0.8s;
+  .vs-menu-area {
+    width: 60%;
+    background-color: $main-color;
+    height: 100vh;
+    position: relative;
+    transition: all ease 1s;
+    transition-delay: 0.5s;
+    z-index: 6;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+    padding: 10px;
+  }
+}
+
+.navbarmenu {
+  .close {
+    &__div {
+      text-align: right;
+      display: block;
+      width: 100%;
+      height: 80px;
+      padding: 20px;
+    }
+    &__icon {
+      display: inline-block;
+      font-size: 22px;
+      width: 33px;
+      height: 33px;
+      line-height: 33px;
+      color: $white;
+      background-color: $secnd-color;
+      border-radius: 50%;
+      text-align: center;
+    }
+  }
+  &__nav {
+    width: 100%;
+    margin: 35px 0 10px 0;
+  }
+  &__item {
+    font-family: $fontSansDisplay;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 50px 0;
+    width: 100%;
+}
+&__link{
+    color: $white;
+    width: 75%;
+    display: inline-block;
+    margin-left: 25%;
+  }
+  &__link.active{
+      border-right: 3px solid $secnd-color;
+      color: $secnd-color;
+  }
+}
+
+// Close Div Menu
+.vs-menu-wrapper.vshide {
+  opacity: o;
+  visibility: hidden;
+  width: o;
+  transition: all ease 0.8s;
+}
+
+// open Div Menu
+.vs-menu-wrapper.vsshow {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+  transition: all ease 0.8s;
+  .vs-menu-area {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+    transition: all ease 1s;
+    display: block !important;
+    color: antiquewhite;
+    padding: 0px;
+  }
+}
+
+
+// Style Media Queries In The Max Width ("*******").
+@media (max-width: $mobile-screen) {
+  .vs-menu-wrapper {
+    .vs-menu-area {
+      width: 75%;
+    }
+  }
+}

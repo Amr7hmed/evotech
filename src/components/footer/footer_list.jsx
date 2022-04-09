@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import {NavLink} from 'react-router-dom';
 
 function FooterList( {title}) {
   return (
@@ -8,40 +9,40 @@ function FooterList( {title}) {
       <h4 className="footer__list__header">{title}</h4>
       <ul className="list">
         <li>
-          <a href="#">
+          <NavLink  to={"/"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />
             </span>
             <span className="item">Home</span>
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#">
+          <NavLink  to={"/about"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />
             </span>
             <span className="item">About Us</span>
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#">
+          <NavLink to={"/services"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />
             </span>
             <span className="item">Our Services</span>
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#">
+          <NavLink to={"/contactus"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />
             </span>
             <span className="item">Contact Us</span>
-          </a>
+          </NavLink>
         </li>
       </ul>
     </div>
