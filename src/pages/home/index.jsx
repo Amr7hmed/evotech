@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import SliderHeader from "../../components/home/SliderHeader";
 
 function Home() {
   return (
@@ -13,7 +14,9 @@ function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="/" />
       </Helmet>
-      <div>Home</div>
+      <div>
+          <SliderHeader/>
+      </div>
     </>
   );
 }

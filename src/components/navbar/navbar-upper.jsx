@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faEnvelope, faComment } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
   faYoutube,
@@ -46,6 +46,12 @@ function NavbarUpper() {
             <li>
               <span>
                 <FontAwesomeIcon icon={faInstagram} />
+              </span>
+            </li>
+            <li className="lan">
+              <span>
+              <img src="./assets/images/icon/langth.png" alt="langth" width={"28px"} height={"30px"} />
+              <span className="text">Ar</span>
               </span>
             </li>
           </ul>

@@ -41,7 +41,7 @@
       height: 33px;
       line-height: 33px;
       color: $white;
-      background-color: $secnd-color;
+      background-color: #031224;
       border-radius: 50%;
       text-align: center;
     }
@@ -55,7 +55,7 @@
     font-size: 17px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 50px 0;
+    margin: 45px 0;
     width: 100%;
 }
 &__link{
@@ -63,10 +63,19 @@
     width: 75%;
     display: inline-block;
     margin-left: 25%;
+    
+    .icon {
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    &:hover {
+      color: $white;
+      padding-left: 10px;
+    }
   }
   &__link.active{
-      border-right: 3px solid $secnd-color;
-      color: $secnd-color;
+      border-right: 3px solid #031224;
+      color: #031224;
   }
 }
 

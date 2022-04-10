@@ -1,15 +1,20 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import {NavLink} from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 function NavbarBottom(props) {
-  const {handelvisibility}=props;
-  
+  const { handelvisibility } = props;
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light navbar__bottom">
       <div className="container">
         <NavLink className="navbar-brand" to="/" exact>
-          <img src="./assets/images/logo/logo-header.png" alt="EvoTech logo"  width={"270px"} height={"60px"} />
+          <img
+            src="./assets/images/logo/logo-header.png"
+            alt="EvoTech logo"
+            width={"270px"}
+            height={"60px"}
+          />
         </NavLink>
         <button
           className="navbar-toggler"
@@ -19,7 +24,12 @@ function NavbarBottom(props) {
           aria-label="Toggle navigation"
           onClick={handelvisibility}
         >
-          <span className="navbar-toggler-icon"></span>
+          <img
+            src="./assets/images/icon/navmobile.png"
+            alt="nav mobile icon"
+            width={"60px"}
+            height={"60px"}
+          />
         </button>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -33,9 +43,43 @@ function NavbarBottom(props) {
                 About Us
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to={"/services"} exact>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 our services
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <NavLink className="dropdown-item" to={"/websolutions"} exact>
+                    Web Solutions
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to={"/mobileapp"} exact>
+                    Mobile App
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to={"/hostingservieces"} exact>
+                    Hosting Servieces
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to={"/development"} exact>
+                    Development
+                  </NavLink>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to={"/blog"} exact>
+                Blog
               </NavLink>
             </li>
             <li className="nav-item">
@@ -43,8 +87,10 @@ function NavbarBottom(props) {
                 Contact us
               </NavLink>
             </li>
+            <li className="nav-item">
+              <button className="btn">GET PROPOSAL</button>
+            </li>
           </ul>
-          <div className="d-flex">AR</div>
         </div>
       </div>
     </nav>

@@ -33,38 +33,54 @@
 
   &__logo {
     margin-right: 16px;
+    background-color: #0000007e;
+    width: 413px;
+    height: 362px;
+    text-align: center;
+    padding: 34px 27px;
+    border-radius: 0px 60px;
     img {
       width: 204px;
-      height: 108px;
-      margin-bottom: 24px;
+      height: 137px;
     }
     p {
       font-size: 16px;
+      font-family: $fontmontserrat;
+      margin: 20px 0px 22px 0px ;
       a {
         font-weight: bold;
         color: $white;
       }
     }
+    .socialmedia{
+      width: 164px;
+      height: 34px;
+      a{
+        width: 40px;
+        height: 34px;
+        display: inline-block;
+      }
+    }
   }
   &__list {
     margin: 0 20px;
-    &__header{
-        font-size: 18px;
-        font-family: $fontmontserrat;
-        color: #249ee8;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-bottom: 35px;
-        position: relative;
-        &::after {
-          content: "";
-          position: absolute;
-          height: 5px;
-          width: 19px;
-          background-color: #249ee8;
-          left: 0;
-          bottom: -10px;
-        }
+    &__header {
+      font-size: 18px;
+      font-family: $fontmontserrat;
+      color: #249ee8;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 35px;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 19px;
+        background-color: #249ee8;
+        left: 0;
+        bottom: -10px;
+      }
     }
     .list {
       margin-left: 5px;
@@ -84,17 +100,76 @@
       }
     }
   }
+
+  &__contactus {
+    .list {
+      margin-left: 5px;
+      li {
+        transition: 0.5s;
+        margin-bottom: 13px;
+        .icon {
+          font-size: 16px;
+          margin-right: 10px;
+        }
+        &:hover {
+          margin-left: 10px;
+        }
+        .text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
 }
 
+.copyright {
+  background-color: #1a1a1a;
+  color: $white;
+  max-height: auto;
+  min-height: 94px;
+  .container {
+    max-height: auto;
+    min-height: 94px;
+  }
+  &__item {
+    max-height: auto;
+    min-height: 94px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      font-size: 14px;
+      font-family: $fontmontserrat;
+      a {
+        color: #249ee8;
+      }
+    }
+    .socialmedia {
+      a {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+        color: $white;
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
 // tab-screen
 // Style Media Queries In The Max Width ("*******").
 @media (max-width: $tab-screen) {
   .footer {
     &__logo {
-      margin:20px 8px;
+      margin: 20px 8px;
     }
-    &__list,&__contactus {
-      margin:20px 8px;
+    &__list,
+    &__contactus {
+      margin: 20px 8px;
     }
   }
 }
@@ -106,9 +181,20 @@
       margin: 20px auto;
       width: 85%;
     }
-    &__list,&__contactus {
+    &__list,
+    &__contactus {
       margin: 20px auto;
       width: 85%;
+    }
+  }
+  .copyright {
+    &__item {
+      .socialmedia {
+        a {
+          width: 25px;
+          height: 25px;
+        }
+      }
     }
   }
 }

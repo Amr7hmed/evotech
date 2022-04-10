@@ -39,13 +39,14 @@
             padding: 14px 37px 14px 19px;
           }
           &:last-of-type {
-            padding: 14px 88px 14px 19px;
+            padding: 14px 28px 14px 19px;
           }
         }
       }
       .right {
         li {
           display: inline-block;
+          box-sizing: border-box;
           border-left: 1px solid #072d5b;
           height: 100%;
           width: 50px;
@@ -54,7 +55,38 @@
             display: inline-block;
             height: 18px;
             width: 10px;
-            margin: 15px auto;
+            margin: 10px auto;
+          }
+        }
+        li.lan {
+          border-right: 1px solid #072d5b;
+          background-color: #072d5b;
+          height: 100%;
+          width: 50px;
+          text-align: center;
+          padding: 1px;
+          cursor: pointer;
+          span {
+            display: inline-block;
+            color: #193a63;
+            font-size: 18px;
+            width: 28px;
+            height: 30px;
+            position: relative;
+            cursor: pointer;
+            .text {
+              margin: 0 !important;
+              font-size: 12px;
+              font-family: $fontmontserrat;
+              color: $white;
+              text-transform: uppercase;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -30%);
+              z-index: 1;
+              cursor: pointer;
+            }
           }
         }
       }
@@ -81,21 +113,33 @@
     .navbar-collapse {
       min-height: 100px;
       max-height: auto;
-      ul {
+      ul.navbar-nav {
         min-height: 100px;
         max-height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         li.nav-item {
           height: 100px;
           display: inline-block;
-          margin-right: 63px;
-          font-family: $fontSansDisplay;
-          font-size: 16px;
-          font-weight: bold;
+          font-family: $fontOpenSans;
+          font-size: 15px;
           text-transform: uppercase;
           text-align: center;
-          min-width: 80px;
-          max-width: auto;
-          a {
+          width: auto;
+          button {
+            width: 178px;
+            height: 44px;
+            background-color: #2060b6;
+            margin: 24px auto;
+            color: $white;
+            border: 1px solid #0684c7;
+            border-radius: 25px;
+            font-family: $fontSansDisplay;
+            font-size: 15px;
+          }
+          a.nav-link {
             padding: 34px 0;
             height: 100px;
           }
@@ -105,10 +149,39 @@
           }
         }
       }
+      .dropdown-toggle::after {
+        margin-left: 0.5em;
+      }
+      // Dropdown
+      ul.dropdown-menu {
+        li {
+          padding: 10px 0;
+          a{
+            font-size: 15px;
+            text-transform: capitalize;
+          }
+          
+          &:hover{
+            border-bottom: 3px solid #1079c0;
+            a{
+              background-color: $white;
+              color: #1079c0;
+              font-family: $fontOpenSans;
+            }
+          }
+        }
+      }
+    }
+
+    // Navbar Toggler Icon
+    .navbar-toggler {
+      padding: 0 !important;
+      color: $white;
+      border-color: $white;
     }
   }
 }
-// Style Media Queries In The Max Width ("*******").
+// Style Media Queries In The Max Width ("Web Screen").
 @media (max-width: $web-screen) {
   .navbar {
     &__bottom {
@@ -129,7 +202,7 @@
   }
 }
 
-// Style Media Queries In The Max Width ("*******").
+// Style Media Queries In The Max Width ("Mobile Screen").
 @media (max-width: $mobile-screen) {
   .navbar__upper__item {
     flex-direction: column;
