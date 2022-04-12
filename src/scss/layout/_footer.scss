@@ -46,24 +46,97 @@
     p {
       font-size: 16px;
       font-family: $fontmontserrat;
-      margin: 20px 0px 22px 0px ;
+      margin: 20px 0px 22px 0px;
       a {
         font-weight: bold;
         color: $white;
       }
     }
-    .socialmedia{
-      width: 164px;
+    .socialmedia {
+      width: 170px;
       height: 34px;
-      a{
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      a {
         width: 40px;
         height: 34px;
         display: inline-block;
+        color: $white;
+        text-align: center;
+        line-height: 34px;
+      }
+      a.facebook {
+        background-color: #36609e;
+      }
+      a.twitter {
+        background-color: #2ca9e1;
+      }
+      a.linkedin {
+        background-color: #0077b7;
+      }
+      a.envelope {
+        background-color: #249ee8;
       }
     }
   }
+  &__items {
+    max-height: auto;
+    min-height: 362px;
+  }
+  &__newsletter {
+    h3 {
+      width: 100%;
+      height: 44px;
+      font-size: 33px;
+      font-family: $fontmontserrat;
+      font-weight: 400;
+    }
+    .news {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #0e0e0e;
+      .text {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: $fontmontserrat;
+        margin-right: 5px;
+      }
+      .input-group {
+        height: 40px;
+        border-radius: 10px;
+        span {
+          border-top-left-radius: 25px;
+          border-bottom-left-radius: 25px;
+          width: 45px;
+          padding-left: 16px;
+          background-color: #f9f9f9;
+          color: #707070;
+        }
+        input {
+          width: 180px;
+          border: 1px solid #f9f9f9;
+          background-color: #f9f9f9;
+          color: #707070;
+          font-size: 13px;
+        }
+        button {
+          background-color: #1c5da3;
+          color: $white;
+          font-size: 14px;
+          border-top-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+          width: 90px;
+        }
+      }
+    }
+  }
+
   &__list {
-    margin: 0 20px;
+    margin-top: 20px;
     &__header {
       font-size: 18px;
       font-family: $fontmontserrat;
@@ -102,11 +175,12 @@
   }
 
   &__contactus {
+    margin-top: 20px;
     .list {
       margin-left: 5px;
       li {
         transition: 0.5s;
-        margin-bottom: 13px;
+        margin-bottom: 10px;
         .icon {
           font-size: 16px;
           margin-right: 10px;
@@ -115,7 +189,7 @@
           margin-left: 10px;
         }
         .text {
-          font-size: 15px;
+          font-size: 14px;
         }
       }
     }
@@ -125,38 +199,33 @@
 .copyright {
   background-color: #1a1a1a;
   color: $white;
-  max-height: auto;
-  min-height: 94px;
+  height: 94px;
   .container {
-    max-height: auto;
-    min-height: 94px;
+    height: 94px;
   }
-  &__item {
-    max-height: auto;
-    min-height: 94px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    .text {
-      font-size: 14px;
-      font-family: $fontmontserrat;
-      a {
-        color: #249ee8;
-      }
+  .text {
+    font-size: 14px;
+    font-family: $fontmontserrat;
+    text-align: center;
+    line-height: 94px;
+    a {
+      color: #249ee8;
     }
-    .socialmedia {
-      a {
-        display: inline-block;
-        width: 32px;
-        height: 32px;
-        margin-right: 8px;
-        color: $white;
-        svg {
-          width: 100%;
-          height: 100%;
-        }
-      }
+  }
+}
+// web-screen
+// Style Media Queries In The Max Width ("*******").
+
+@media(max-width:$web-screen){
+  .footer {
+    &__logo {
+      margin: 15px auto;
+      width: 80%;
+    }
+
+    &__items{
+      margin: 15px auto;
+      width: 80%;
     }
   }
 }
@@ -165,11 +234,36 @@
 @media (max-width: $tab-screen) {
   .footer {
     &__logo {
-      margin: 20px 8px;
+      margin: 20px auto;
     }
-    &__list,
+
+    &__newsletter {
+      margin: 10px auto;
+      width: 80%;
+      text-align: center;
+      .news {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #0e0e0e;
+        .text {
+          margin: 15px 0;
+        }
+      }
+    }
+
+    &__list {
+      margin: 10px auto;
+      width: 80%;
+      border-bottom: 1px solid #0e0e0e;
+      padding: 10px 0;
+    }
     &__contactus {
-      margin: 20px 8px;
+      margin: 10px auto;
+      width: 80%;
+      padding: 10px 0;
     }
   }
 }
@@ -181,20 +275,17 @@
       margin: 20px auto;
       width: 85%;
     }
-    &__list,
-    &__contactus {
-      margin: 20px auto;
-      width: 85%;
+
+    &__newsletter {
+      width: 70%;
+      text-align: center;
     }
-  }
-  .copyright {
-    &__item {
-      .socialmedia {
-        a {
-          width: 25px;
-          height: 25px;
-        }
-      }
+
+    &__list {
+      width: 70%;
+    }
+    &__contactus {
+      width: 70%;
     }
   }
 }

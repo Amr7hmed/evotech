@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function FooterLogo() {
   return (
@@ -11,11 +12,17 @@ function FooterLogo() {
         eiusmod <a href="/"> EvoTech </a> ut labore et dolore magna aliqua.
       </p>
       <div className="socialmedia">
-            <a href="#">
+            <a href="#" className="facebook">
             <FontAwesomeIcon icon={faFacebookF} />
             </a>
-            <a href="#">
+            <a href="#" className="twitter">
             <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a href="#" className="linkedin">
+            <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+            <a href="#" className="envelope">
+            <FontAwesomeIcon icon={faEnvelope} />
             </a>
       </div>
     </div>

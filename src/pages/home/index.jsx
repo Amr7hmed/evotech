@@ -1,6 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import SliderHeader from "../../components/home/SliderHeader";
+import SliderServices from "../../components/home/SliderServices";
+import AboutInformation from "../../components/public/AboutInformation ";
+import AboutSection from "../../components/public/AboutSection";
 
 function Home() {
   return (
@@ -16,6 +19,9 @@ function Home() {
       </Helmet>
       <div>
           <SliderHeader/>
+          <AboutSection/>
+          <AboutInformation bgLight="bg_light"/>
+          <SliderServices/>
       </div>
     </>
   );

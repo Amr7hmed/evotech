@@ -1,7 +1,5 @@
 import React from "react";
-import FooterContactus from "../../components/footer/footer_contactus";
-import FooterCopyright from "../../components/footer/footer_copyright";
-import FooterList from "../../components/footer/footer_list";
+import FooterItems from "../../components/footer/footer_items";
 import FooterLogo from "../../components/footer/footer_logo";
 
 function Footer() {
@@ -16,22 +14,22 @@ function Footer() {
         <div className="overload"></div>
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-6 col-lg-5">
+            <div className="col-md-12 col-lg-12 col-xl-5">
               <FooterLogo />
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-2">
-              <FooterList title={"MAIN PAGES"} />
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-2">
-              <FooterList title={"Services"} />
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-3">
-              <FooterContactus />
+            <div className="col-md-12 col-lg-12 col-xl-7">
+              <FooterItems />
             </div>
           </div>
         </div>
       </section>
-      <FooterCopyright/>
+      <section className="copyright">
+        <div className="container">
+          <div className="text">
+            Copyright <a href="/">@ EvoTech</a> 2022
+          </div>
+        </div>
+      </section>
     </footer>
   );
 }

@@ -1,0 +1,81 @@
+.aboutsection {
+  margin: 116px 0px 110px 0px;
+  &__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__text {
+    .link {
+      font-size: 17px;
+      color: #5e5e5e;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: $fontOpenSans;
+    }
+    h3 {
+      font-size: 40px;
+      text-transform: uppercase;
+      font-family: $fontOpenSans;
+      color: #000000;
+      font-weight: bold;
+      position: relative;
+      padding-bottom: 10px;
+      margin-bottom: 24px;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 155px;
+        height: 4px;
+        background-color: #1079c0;
+      }
+    }
+    .detiles {
+      p {
+        font-family: $fontOpenSans;
+        font-size: 22px;
+        color: #202020;
+        margin-bottom: 20px;
+        &:first-of-type {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  &__button {
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    a {
+      background-color: #0684c7;
+      color: $white;
+      width: 189px;
+      height: 58px;
+      text-align: center;
+      line-height: 44px;
+      border-radius: 58px;
+      -webkit-border-radius: 58px;
+      -moz-border-radius: 58px;
+      -ms-border-radius: 58px;
+      -o-border-radius: 58px;
+      font-size: 20px;
+      font-family: $fontOpenSans;
+      &:hover{
+        background-color: #0684c7;
+        color: $white;
+      }
+}
+  }
+}
+// Style Media Queries In The Max Width ("Web Screen").
+@media (max-width: $web-screen) {
+    .aboutsection {
+        &__text{
+            margin-top: 30px;
+        }
+    }
+  }
