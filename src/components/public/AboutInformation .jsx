@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 function AboutInformation(props) {
-  const { bgLight } = props;
+  const { Styleclass } = props;
   return (
-    <section className={"aboutinformation "+ bgLight}>
+    <section className={"aboutinformation "+ Styleclass}>
       <div className="container">
         <div className="row">
           <div className="col-md-12 col-xl-4">

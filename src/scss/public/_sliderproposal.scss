@@ -1,0 +1,127 @@
+.slider {
+  &__proposal {
+    width: 100%;
+    max-height: auto;
+    min-height: 509px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    .overload {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #1c5da3e6;
+      z-index: 1;
+    }
+
+    .detiles {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      width: 90%;
+      max-height: auto;
+      min-height: 288px;
+      z-index: 2;
+      color: $white;
+      text-align: center;
+      p {
+        font-size: 21px;
+        font-family: $fontOpenSans;
+        text-transform: uppercase;
+        font-weight: 300;
+      }
+      .detiles_doc {
+        h4 {
+          font-size: 47px;
+          font-family: $fontOpenSans;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+        p {
+          font-size: 29px;
+          font-family: $fontOpenSans;
+          text-transform: uppercase;
+          font-weight: 300;
+        }
+      }
+      button {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 260px;
+        height: 57px;
+        color: $white;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: $fontOpenSans;
+        text-transform: uppercase;
+        border-radius: 57px;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+// Style Media Queries In The Max Width ("TabLet Screen").
+@media (max-width: $tab-screen) {
+  .slider {
+    &__proposal {
+      .detiles {
+        width: 350px;
+        min-height: 209px;
+        p {
+          font-size: 17px;
+        }
+        .detiles_doc {
+          h4 {
+            font-size: 21px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+        button {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+// Style Media Queries In The Max Width ("Mobile Screen").
+@media (max-width: $mobile-screen) {
+  .slider {
+    &__proposal {
+      margin:  0px;
+      .detiles {
+        min-height: auto;
+        p {
+          font-size: 12px;
+        }
+        .detiles_doc {
+          h4 {
+            font-size: 21px;
+          }
+          p {
+            font-size: 10px;
+            width: 65%;
+            display: inline-block;
+            margin: 0 auto;
+          }
+        }
+        button {
+          font-size: 11px;
+          width: 138px;
+          height: 45px;
+          font-size: 15px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

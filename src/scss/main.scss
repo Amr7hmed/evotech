@@ -31,7 +31,10 @@ img {
 .clearfix {
   clear: both;
 }
-
+.row{
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
 // General Files
 @import './general/variables';
@@ -41,10 +44,16 @@ img {
 @import './layout/footer';
 @import './layout/vsmenu';
 
-// public Style
+// Home Page Style
 @import './public/aboutsection';
 @import './public/aboutinformation';
 @import './public/sliderservices';
+@import './public/sliderproposal';
+
+
+// Public Style
+@import './public/teamslick';
+@import './public/headerpage';
 
 // pages Style
 @import './pages/home';

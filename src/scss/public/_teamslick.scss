@@ -1,0 +1,194 @@
+.team {
+  &__slick {
+    text-align: center;
+    background-color: #EFEFEF;
+    padding-top: 85px;
+    padding-bottom: 90px;
+    .detiles {
+      width: 724px;
+      max-height: auto;
+      min-height: 170px;
+      margin: 0 auto;
+      text-align: center;
+      p {
+        &:first-of-type {
+          color: #000000;
+          font-size: 14px;
+          font-family: $fontmontserrat;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+        &:last-of-type {
+          color: #686868;
+          font-size: 20px;
+          font-family: $fontOpenSans;
+          font-weight: 300;
+        }
+      }
+      h4 {
+        font-size: 35px;
+        font-weight: bold;
+        color: #333333;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          background-color: #186bbb;
+          width: 186px;
+          height: 5px;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+
+    &__card {
+      width: 277px !important;
+      height: 362px !important;
+      margin-top: 60px;
+      img.img {
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+        &:hover {
+          filter: grayscale(0);
+          -webkit-filter: grayscale(0);
+        }
+      }
+      .data {
+        margin-top: 27px;
+        text-align: center;
+        h6 {
+          font-size: 17px;
+          font-family: $fontOpenSans;
+          font-weight: 900;
+        }
+        p {
+          font-size: 14px;
+          font-family: $fontOpenSans;
+          color: #175293;
+        }
+        .soceilmeda {
+          width: 151px;
+          height: 33px;
+          margin: 29px auto 35px auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          a {
+            display: inline-block;
+            svg {
+              width: 32px;
+              height: 32px;
+            }
+          }
+          a.facebook {
+            color: #3b65c8;
+          }
+          a.twitter {
+            color: #11a1d6;
+          }
+          a.googleplus {
+            color: #d93535;
+          }
+          a.envelope {
+            color: #193a63;
+          }
+        }
+      }
+    }
+
+    .slick-arrow {
+      background-color: #707070;
+      width: 22px;
+      height: 77px;
+      border-radius: 20px;
+      transition: 2s;
+      -webkit-transition: 2s;
+      -moz-transition: 2s;
+      -ms-transition: 2s;
+      -o-transition: 2s;
+      &:hover {
+        background-color: #165191;
+        color: $white;
+      }
+    }
+    .slick-arrow.slick-prev {
+      &:before {
+        content: "<";
+        font-weight: bold;
+        font-family: monospace;
+      }
+    }
+
+    .slick-arrow.slick-next{
+        &:before {
+          content: ">";
+          font-weight: bold;
+          font-family: monospace;
+        }
+
+    }
+  }
+}
+
+
+.clients{
+  &_detiles{
+    margin-bottom: 60px !important;
+  }
+  &__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div.img{
+      width: 229px;
+      height: 112px;
+      margin: 0 auto;
+      line-height: 112px;
+    }
+    img.img{
+      height: auto;
+      max-width: 100%;
+      display: inline-block;
+    }
+  }
+}
+// Style Media Queries In The Max Width ("Tablet Screen").
+@media (max-width: $tab-screen) {
+    .team {
+        &__slick {
+            .detiles {
+                width: 90%;
+                p {
+                    &:first-of-type {
+                        font-size: 14px;
+                    }
+                    &:last-of-type {
+                        font-size: 15px;
+                    }    
+                }
+                h4 {
+                  font-size: 20px;
+                  &::before {
+                    width: 104px;
+                    height: 3px;
+                  }
+                }
+              }
+
+
+            .slick-arrow{
+                display: none !important;
+            }
+
+        }}
+  }

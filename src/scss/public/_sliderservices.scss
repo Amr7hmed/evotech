@@ -88,11 +88,13 @@
   z-index: 4;
   color: $white;
   top: 350px;
+  text-align: center;
   &__item {
     width: 299px !important;
     height: 300px !important;
     background-color: #2a2a2a;
-        .icon{
+    cursor: pointer;
+    .icon {
       width: 125px;
       height: 125px;
       margin: 25px auto 13px auto;
@@ -109,26 +111,26 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-    transition-delay: 1s;
+      transition-delay: 1s;
       transition: all 2s;
       -webkit-transition: all 2s;
       -moz-transition: all 2s;
       -ms-transition: all 2s;
       -o-transition: all 2s;
-      .img_light{
+      .img_light {
         display: block;
       }
-      .img_primary{
+      .img_primary {
         display: none;
       }
     }
-    h4{
+    h4 {
       font-size: 20px;
       font-weight: bold;
       font-family: $fontOpenSans;
       text-align: center;
     }
-    p{
+    p {
       width: 265px;
       margin: 0 auto;
       text-align: center;
@@ -137,24 +139,87 @@
       font-weight: 300;
     }
 
-    
     transition: all 2s;
     -webkit-transition: all 2s;
     -moz-transition: all 2s;
     -ms-transition: all 2s;
     -o-transition: all 2s;
 
-    &:hover{
-      background-color: #2064AD;
-      .icon{
+    &:hover {
+      background-color: #2064ad;
+      .icon {
         background-color: $white;
-        .img_light{
+        .img_light {
           display: none;
         }
-        .img_primary{
+        .img_primary {
           display: block;
         }
       }
     }
+  }
+  ul.slick-dots {
+    bottom: -45px;
+    li {
+      button {
+        &::before {
+          content: "";
+          width: 20px !important;
+          height: 4px !important;
+          background-color: #4d4d4d !important;
+        }
+      }
+    }
+    li.slick-active {
+      button {
+        &::before {
+          background-color: #186bbb !important;
+        }
+      }
+    }
+  }
 }
+
+// Style Media Queries In The Max Width ("Web Screen").
+@media (max-width: $web-screen) {
+  .slider__services__slick {
+    top: 400px;
+  }
+}
+
+// Style Media Queries In The Max Width ("Tablet Screen").
+@media (max-width: $tab-screen) {
+  .slider__services{
+    height: 638px;
+    padding: 40px 0;
+  }
+  .slider__services__titleback {
+    font-size: 50px;
+    top: 15px;
+  }
+  .slider__services__header {
+    transform: translate(-50%, 30%);
+    text-align: center;
+    -webkit-transform: translate(-50%, 30%);
+    -moz-transform: translate(-50%, 30%);
+    -ms-transform: translate(-50%, 30%);
+    -o-transform: translate(-50%, 30%);
+    h3 {
+      font-size: 20px;
+    }
+    .title {
+      font-size: 12px;
+      &::before {
+        width: 115px;
+        height: 3px;
+      }
+    }
+    
+    .detiles {
+      font-size: 15px;
+    }
+  }
+  .slider__services__slick {
+    top: 325px;
+  }
 }

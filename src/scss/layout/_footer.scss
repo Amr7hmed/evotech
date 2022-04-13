@@ -160,8 +160,23 @@
       li {
         transition: 0.5s;
         margin-bottom: 19px;
+        a.active {
+          color: #249ee8;
+          font-weight: bold;
+        }
         a {
           color: $white;
+          width: 100%;
+          display: block;
+          transition: 2s;
+          -webkit-transition: 2s;
+          -moz-transition: 2s;
+          -ms-transition: 2s;
+          -o-transition: 2s;
+
+          &:hover {
+            color: #249ee8;
+          }
         }
         .icon {
           font-size: 12px;
@@ -216,14 +231,14 @@
 // web-screen
 // Style Media Queries In The Max Width ("*******").
 
-@media(max-width:$web-screen){
+@media (max-width: $web-screen) {
   .footer {
     &__logo {
       margin: 15px auto;
       width: 80%;
     }
 
-    &__items{
+    &__items {
       margin: 15px auto;
       width: 80%;
     }

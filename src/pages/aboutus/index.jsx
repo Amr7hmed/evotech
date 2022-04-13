@@ -1,5 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import AboutInformation from "../../components/public/AboutInformation ";
+import AboutSection from "../../components/public/AboutSection";
+import HeaderPage from "../../components/public/HeaderPage";
+import ClientsSlick from "../../components/slick/clients_slick";
+import TeamSlick from "../../components/slick/team_slick";
 
 
 function Aboutus() {
@@ -14,7 +19,14 @@ function Aboutus() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="/about" />
       </Helmet>
-      <div>About us</div>
+      <div>
+        
+      <HeaderPage/>
+      <AboutSection/>
+      <AboutInformation Styleclass="bg_primary"/>
+      <TeamSlick/>
+      <ClientsSlick/>
+      </div>
     </>
   )
 }
