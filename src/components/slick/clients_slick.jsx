@@ -8,7 +8,7 @@ export default class ClientsSlick extends Component {
       infinite: true,
       slidesToShow: 4,
       slidesToScroll: 2,
-      autoplay: false,
+      autoplay: true,
       speed: 500,
       autoplaySpeed: 3000,
       cssEase: "linear",

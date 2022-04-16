@@ -205,7 +205,7 @@
 }
 
 // Style Media Queries In The Max Width ("Mobile Screen").
-@media (max-width: $mobile-screen) {
+@media (max-width: $tab-screen) {
   .navbar__upper__item {
     flex-direction: row;
     justify-content: flex-end;

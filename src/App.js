@@ -6,6 +6,7 @@ import { BrowserRouter as Routes, Route, Switch } from "react-router-dom";
 import Home from "./pages/home/index.jsx";
 import Aboutus from "./pages/aboutus/index.jsx";
 import StaticContentHolder from "./layout/StaticContentHolder.jsx";
+import WebSolutions from "./pages/services/web_solutions.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={Aboutus} exact />
+            <Route path="/websolutions" component={WebSolutions} exact />
           </Switch>
           <Footer />
         </Routes>

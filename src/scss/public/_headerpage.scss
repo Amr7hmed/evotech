@@ -1,0 +1,53 @@
+.headerpage{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    .overload{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .container{
+        z-index: 2;
+        position: relative;
+        height: 100%;
+    }
+    &__title{
+        position: relative;
+        height: 100%;
+        div{
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            z-index: 4;
+            h4{
+                font-family: $fontroboto;
+                font-size: 28px;
+                font-weight: 600;
+                color: $white;
+                text-transform: capitalize;
+            }
+            ul.nav_list{
+                color: $white;
+                li{
+                    display: inline-block;
+                    a{
+                        font-size: 12px;
+                        font-family: $fontOpenSans;
+                        color: $white;
+                    }
+                    span{
+                        color: #1785C7;
+                    }
+                }
+            }
+        }
+    }
+}

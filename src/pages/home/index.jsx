@@ -22,7 +22,7 @@ function Home() {
       </Helmet>
       <div>
           <SliderHeader/>
-          <AboutSection/>
+          <AboutSection Image="./assets/images/public/about__section__home.png" Title="Who are we"/>
           <AboutInformation Styleclass="bg_light"/>
           <SliderServices/>
           <SliderProposal/>

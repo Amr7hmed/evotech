@@ -1,7 +1,8 @@
 import React from "react";
 import {NavLink} from 'react-router-dom';
 
-function AboutSection() {
+function AboutSection(props) {
+  const { Styleclass,Image ,Hidelink,Title , Styledetiles} = props;
   return (
     <section className="aboutsection">
       <div className="container">
@@ -9,16 +10,16 @@ function AboutSection() {
           <div className="col-md-12 col-xl-6">
             <div className="aboutsection__img">
               <img
-                src="./assets/images/public/about__section__home.png"
+                src={Image}
                 alt="About Section Home"
               />
             </div>
           </div>
           <div className="col-md-12 col-xl-6">
             <div className="aboutsection__text">
-              <p className="link">About us</p>
-              <h3>Who are we</h3>
-              <div className="detiles">
+              <p className={"link "+Hidelink}>About us</p>
+              <h3>{Title}</h3>
+              <div className={"detiles "+Styledetiles}>
                 <p>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
@@ -33,7 +34,7 @@ function AboutSection() {
                   vero eos et accusam et
                 </p>
               </div>
-              <div className="aboutsection__button">
+              <div className={"aboutsection__button "+ Styleclass}>
                 <NavLink to={"/about"}  className="btn" exact>Read More</NavLink>
               </div>
             </div>

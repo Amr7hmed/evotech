@@ -41,7 +41,7 @@ function SliderHeader() {
 
             <div className="contaner_item">
               <p>Evolution Technology</p>
-              <h4>Web Solutions</h4>
+              <h1>Web Solutions</h1>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna

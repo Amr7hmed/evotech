@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import AboutVision from "../../components/about/aboutvision.jsx";
 import AboutInformation from "../../components/public/AboutInformation ";
 import AboutSection from "../../components/public/AboutSection";
 import HeaderPage from "../../components/public/HeaderPage";
@@ -21,8 +22,9 @@ function Aboutus() {
       </Helmet>
       <div>
         
-      <HeaderPage/>
-      <AboutSection/>
+      <HeaderPage Image="./assets/images/bg/about_header.jpg" Title="About Us"/>
+      <AboutSection Styleclass="hidebutton" Image="./assets/images/public/about__section__about.png" Title="Who are we"/>
+      <AboutVision/>
       <AboutInformation Styleclass="bg_primary"/>
       <TeamSlick/>
       <ClientsSlick/>

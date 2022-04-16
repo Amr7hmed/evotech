@@ -1,0 +1,48 @@
+.services {
+  &__language {
+    min-height: 364px;
+    max-height: auto;
+    width: 100%;
+    background-color: #2064ad;
+    padding: 88px 0px 66px 0px;
+    .language {
+      width: 80%;
+      max-height: auto;
+      min-height: 218px;
+      text-align: center;
+      margin: 0 auto;
+      color: $white;
+      font-family: $fontOpenSans;
+      text-transform: uppercase;
+      h5 {
+        font-size: 31px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 26px;
+        font-weight: 300;
+      }
+      .icons {
+        img {
+          margin-top: 14px;
+        }
+      }
+    }
+  }
+}
+
+// Style Media Queries In The Max Width ("Mobile Screen").
+@media (max-width: $tab-screen) {
+  .services {
+    &__language {
+      .language {
+        h5 {
+          font-size: 28px;
+        }
+        p {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

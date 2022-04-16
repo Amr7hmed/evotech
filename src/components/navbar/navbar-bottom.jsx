@@ -61,17 +61,17 @@ function NavbarBottom(props) {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to={"/mobileapp"} exact>
+                  <NavLink className="dropdown-item" to={"/websolutions"} exact>
                     Mobile App
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to={"/hostingservieces"} exact>
+                  <NavLink className="dropdown-item" to={"/websolutions"} exact>
                     Hosting Servieces
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to={"/development"} exact>
+                  <NavLink className="dropdown-item" to={"/websolutions"} exact>
                     Development
                   </NavLink>
                 </li>

@@ -1,0 +1,64 @@
+.services {
+  &__methodology {
+    padding: 85px 0px 56px 0px;
+    text-align: center;
+    .title {
+      h4 {
+        font-family: $fontOpenSans;
+        text-transform: uppercase;
+        font-size: 28px;
+        color: #000;
+        font-weight: bold;
+      }
+      p {
+        width: 60%;
+        font-size: 16px;
+        font-family: $fontroboto;
+        margin: 25px auto 30px auto;
+      }
+    }
+    .item {
+      display: flex;
+      flex-direction: row;
+      margin: 15px auto;
+      text-align: center;
+      align-items: center;
+      height: 50px;
+      span {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+        display: inline-block;
+        background-color: #414141;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        line-height: 50px;
+        color: $white;
+        font-size: 20px;
+      }
+      p {
+        line-height: 50px;
+        height: 50px;
+        margin: 0;
+        font-size: 16px;
+        font-family: $fontroboto;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// Style Media Queries In The Max Width ("Mobile Screen").
+@media (max-width: $mobile-screen) {
+    .services {
+        &__methodology {
+          .item {
+            width: 80%;
+            margin: 10px auto;
+          }
+        }
+      }
+  }
