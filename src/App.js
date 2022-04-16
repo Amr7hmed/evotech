@@ -4,7 +4,7 @@ import "./scss/main.scss";
 
 import { BrowserRouter as Routes, Route, Switch } from "react-router-dom";
 import Home from "./pages/home/index.jsx";
-import Aboutus from "./pages/aboutus/index.jsx";
+import Aboutus from "./pages/about/index.jsx";
 import StaticContentHolder from "./layout/StaticContentHolder.jsx";
 import WebSolutions from "./pages/services/web_solutions.jsx";
 

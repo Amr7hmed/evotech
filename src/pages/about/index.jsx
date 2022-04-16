@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import AboutVision from "../../components/about/aboutvision.jsx";
-import AboutInformation from "../../components/public/AboutInformation ";
+import AboutInformation from "../../components/public/AboutInformation";
 import AboutSection from "../../components/public/AboutSection";
 import HeaderPage from "../../components/public/HeaderPage";
 import ClientsSlick from "../../components/slick/clients_slick";

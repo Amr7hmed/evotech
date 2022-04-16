@@ -38,28 +38,30 @@ img {
 }
 
 // General Files
-@import './general/variables';
+@import './variables';
 
 // layout Style
-@import './layout/headr';
-@import './layout/footer';
-@import './layout/vsmenu';
+@import '../layout/navbar/_headr.scss';
+@import '../layout/navbar/_vsmenu.scss';
+@import '../layout/footer/_footer.scss';
+
+// ===> Pages Style
 
 // Home Page Style
-@import './public/aboutsection';
-@import './public/aboutinformation';
-@import './public/sliderservices';
-@import './public/sliderproposal';
+@import '../components/home/_sliderservices.scss';
+@import '../components/home/_sliderproposal.scss';
+@import '../components/home/_sliderheader.scss';
+
+// About Page Style
+@import '../components/about/_aboutvision.scss';
+
 
 // Services Page Style
 @import '../components/services/services_language';
 @import '../components/services/services_methodology';
 
-
 // Public Style
-@import './public/teamslick';
-@import './public/headerpage';
-
-// pages Style
-@import './pages/home';
-@import './pages/about';
+@import '../components/slick/_slick.scss';
+@import '../components/public/_headerpage.scss';
+@import '../components/public/_aboutinformation.scss';
+@import '../components/public/_aboutsection.scss';
