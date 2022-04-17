@@ -1,0 +1,43 @@
+.buttons__filtter {
+  margin: 43px auto;
+  text-align: center;
+  button {
+    width: 138px;
+    height: 44px;
+    background-color: $white;
+    color: #333333;
+    text-transform: capitalize;
+    font-family: $fontOpenSans;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 40px;
+    border: 1px solid #cecbcb;
+    margin: 0px 5px;
+  }
+  button.active {
+    background-color: #165191;
+    color: $white;
+    border: 1px solid $white;
+  }
+}
+
+
+// Style Media Queries In The Max Width ("Mobile Screen").
+@media (max-width: $mobile-screen) {
+      .buttons__filtter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        button {
+          margin: 5px 0px;
+          width: 160px;
+        }
+      }
+    
+  }
+
+
+  .mr_blog{
+    margin: 98px auto 50px auto !important;
+  }

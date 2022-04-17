@@ -7,6 +7,8 @@ import Home from "./pages/home/index.jsx";
 import Aboutus from "./pages/about/index.jsx";
 import StaticContentHolder from "./layout/StaticContentHolder.jsx";
 import WebSolutions from "./pages/services/web_solutions.jsx";
+import Blogs from "./pages/blogs/index.jsx"
+import Blog from "./pages/blog/index.jsx";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             <Route path="/" component={Home} exact />
             <Route path="/about" component={Aboutus} exact />
             <Route path="/websolutions" component={WebSolutions} exact />
+            <Route path="/blogs" component={Blogs} exact />
+            <Route path="/blog" component={Blog} exact />
           </Switch>
           <Footer />
         </Routes>

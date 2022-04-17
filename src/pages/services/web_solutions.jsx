@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import Portfolio from "../../components/portfolio";
 import AboutSection from "../../components/public/AboutSection";
 import HeaderPage from "../../components/public/HeaderPage";
 import ServicesLanguage from "../../components/services/services_language";
@@ -32,6 +33,7 @@ function WebSolutions() {
         />
         <ServicesLanguage/>
         <Methodology/>
+        <Portfolio/>
       </div>
     </>
   );
