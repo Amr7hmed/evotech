@@ -9,6 +9,7 @@ import StaticContentHolder from "./layout/StaticContentHolder.jsx";
 import WebSolutions from "./pages/services/web_solutions.jsx";
 import Blogs from "./pages/blogs/index.jsx"
 import Blog from "./pages/blog/index.jsx";
+import ContactUs from "./pages/contact/index.jsx";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
             <Route path="/websolutions" component={WebSolutions} exact />
             <Route path="/blogs" component={Blogs} exact />
             <Route path="/blog" component={Blog} exact />
+            <Route path="/contactus" component={ContactUs} exact />
+            
           </Switch>
           <Footer />
         </Routes>

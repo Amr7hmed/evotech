@@ -13,6 +13,7 @@
       height: 396px;
       background-position: center;
       background-repeat: no-repeat;
+      background-size: cover;
       .category {
         position: absolute;
         top: 10px;
@@ -83,24 +84,6 @@
           text-transform: uppercase;
         }
       }
-      .blog__buttons {
-        position: absolute;
-        bottom: 5px;
-        z-index: 1;
-        button {
-          padding: 3px 8px;
-          margin: 0px 5px;
-          background-color: #2064ad;
-          color: $white;
-          svg {
-            margin-left: 5px;
-          }
-        }
-
-        button.comments {
-          background-color: #121212;
-        }
-      }
     }
   }
 }
@@ -138,13 +121,6 @@
           flex-direction: row;
           justify-content: center;
           margin-top: 20px;
-        }
-        .blog__buttons {
-          position: relative;
-          bottom: 5px;
-          z-index: 1;
-          margin-top: 25px;
-          text-align: center;
         }
       }
     }

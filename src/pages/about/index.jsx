@@ -6,9 +6,12 @@ import AboutSection from "../../components/public/AboutSection";
 import HeaderPage from "../../components/public/HeaderPage";
 import ClientsSlick from "../../components/slick/clients_slick";
 import TeamSlick from "../../components/slick/team_slick";
+// import { useLocation  } from "react-router-dom";
 
 
 function Aboutus() {
+  // const params = useLocation ();
+  // console.log(params.pathname)
   return (
     <>
       <Helmet>

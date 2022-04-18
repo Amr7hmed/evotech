@@ -1,8 +1,6 @@
-import { faComments, faThumbsUp } from "@fortawesome/free-regular-svg-icons";
-import { faShareNodes } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { NavLink } from "react-router-dom";
+import BlogButtons from "../public/blogbuttons";
 
 function BlogsCard(props) {
   const { img, Category, Title } = props;
@@ -39,20 +37,7 @@ function BlogsCard(props) {
         <div className="read">
           <NavLink className="btn" to={"/blog"} exact> Read More</NavLink>
         </div>
-        <div className="blog__buttons">
-          <button className="btn comments">
-            (4)
-            <FontAwesomeIcon icon={faComments} />
-          </button>
-          <button className="btn">
-            (20)
-            <FontAwesomeIcon icon={faThumbsUp} />
-          </button>
-          <button className="btn ">
-            (10)
-            <FontAwesomeIcon icon={faShareNodes} />
-          </button>
-        </div>
+        <BlogButtons/>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import HeaderPage from "../../components/public/HeaderPage";
 import BlogsCard from "../../components/blogs/blogs_card";
 
 function Blogs() {
+  
   const Items = [
     "./assets/images/blogs/img_1.png",
     "./assets/images/blogs/img_2.png",
@@ -25,7 +26,7 @@ function Blogs() {
         <link rel="canonical" href="/about" />
       </Helmet>
       <div>
-        <HeaderPage Image="./assets/images/bg/blog_header.jpg" Title="Blog" />
+        <HeaderPage Image="./assets/images/bg/blog_header.jpg" Title="Blogs" />
         <ButtonsFiltter Styleclass="mr_blog" />
         <div className="container">
           {Items.map((img, index) => (
