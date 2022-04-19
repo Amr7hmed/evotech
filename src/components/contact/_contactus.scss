@@ -1,14 +1,280 @@
-
-.contact{
-    &__info{
-        width: 100%;
-        min-height: 620px;
-        max-height: auto;
-        background-color: #2064AD;
-        .left{
-            color: $white;
-            width: 50%;
-            padding: 63px 0px 43px 0px;
+.contact {
+  &__info {
+    width: 100%;
+    min-height: 620px;
+    max-height: auto;
+    display: flex;
+    flex-direction: row;
+    .left {
+      color: $white;
+      padding: 63px 55px 43px 55px;
+      background-color: #2064ad;
+      width: 50%;
+      h4 {
+        font-family: $fontOpenSans;
+        font-size: 40px;
+        color: $white;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: 65px;
+        &::before {
+          content: "";
+          left: 0;
+          bottom: -10px;
+          position: absolute;
+          z-index: 1;
+          background-color: $white;
+          width: 198px;
+          height: 5px;
         }
+      }
+
+      ul.list {
+        li {
+          height: 75px;
+          display: flex;
+          flex-direction: row;
+          width: 509px;
+          margin-bottom: 29px;
+          .icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            color: #2064ad;
+            background-color: $white;
+            line-height: 64px;
+            text-align: center;
+            margin-right: 17px;
+            svg {
+              width: 28px;
+              height: 40px;
+              margin: 12px auto;
+            }
+          }
+          .text {
+            width: 428px;
+            font-family: $fontmontserrat;
+            font-size: 20px;
+            font-weight: 400;
+            height: 75px;
+            padding: 15px 0px;
+          }
+        }
+      }
+
+      .socialmedia {
+        width: 100%;
+        height: 46px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        a {
+          display: inline-block;
+          width: 55px;
+          height: 46px;
+          background-color: #193a63;
+          margin-right: 3px;
+          line-height: 46px;
+          text-align: center;
+          &:last-of-type {
+            margin-right: 0px;
+          }
+          svg {
+            width: 18px;
+            height: 18px;
+            color: $white;
+          }
+        }
+      }
     }
+
+    .right {
+      width: 50%;
+    }
+  }
+
+  &__form {
+    background-color: #ededed;
+    padding: 47px 0px 90px 0px;
+    h4 {
+      font-family: $fontOpenSans;
+      font-size: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+      position: relative;
+      &::before {
+        content: "";
+        left: 0;
+        bottom: -10px;
+        position: absolute;
+        z-index: 1;
+        background-color: #1079c0;
+        width: 198px;
+        height: 5px;
+      }
+    }
+  }
+}
+
+.contact {
+  &__form {
+    .contenerform {
+      padding: 47px 55px;
+      .fielddiv {
+        position: relative;
+        height: 61px;
+        margin-bottom: 25px;
+        span {
+          position: absolute;
+          z-index: 1;
+          display: inline-block;
+          height: 100%;
+          width: 61px;
+          left: 0;
+          text-align: center;
+          line-height: 61px;
+          color: #9e9fa4;
+
+          svg {
+            width: 17px;
+            height: 17px;
+          }
+        }
+        input,
+        textarea {
+          height: 61px;
+          padding-left: 62px;
+          font-size: 16px;
+          font-family: $fontOpenSans;
+        }
+        textarea {
+          height: 201px;
+          line-height: 1;
+          padding-top: 20px;
+        }
+      }
+
+      .buttonfield {
+        text-align: right;
+        button {
+          display: inline-block;
+          width: 148px;
+          height: 42px;
+          border-radius: 20px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          -ms-border-radius: 20px;
+          -o-border-radius: 20px;
+          background-color: #2064ad;
+          color: $white;
+          font-size: 14x;
+          font-weight: bold;
+          font-family: $fontOpenSans;
+          img {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+.errorfiled {
+  color: red;
+}
+
+// Tablet Screen
+// Style Media Queries In The Max Width ("Tablet Screen").
+
+@media (max-width: $tab-screen) {
+  .contact {
+    &__info {
+      display: flex;
+      flex-direction: column;
+      .left {
+        padding: 63px 15px 43px 15px;
+        h4 {
+          font-size: 32px;
+          &::before {
+            width: 100px;
+          }
+        }
+        ul.list {
+          li {
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            .icon {
+              width: 55px;
+              height: 55px;
+              line-height: 55px;
+              svg {
+                width: 25px;
+                height: 25px;
+                margin: 15px auto;
+              }
+            }
+            .text {
+              padding: 5px 0px;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .right {
+        width: 100%;
+        height: 400px;
+      }
+    }
+    &__form {
+      h4 {
+        font-size: 32px;
+        &::before {
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+
+// mobile Screen
+// Style Media Queries In The Max Width ("mobile Screen").
+
+@media (max-width: $mobile-screen) {
+  .contact {
+    &__info {
+      .left {
+        padding: 63px 10px 43px 10px;
+        background-color: #2064ad;
+        width: 100%;
+        h4 {
+          font-size: 28px;
+        }
+
+        ul.list {
+          li {
+            .icon {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    &__form {
+      padding: 45px 0px 45px 0px;
+      h4 {
+        font-size: 28px;
+      }
+      .contenerform {
+        padding: 47px 5px;
+      }
+    }
+  }
 }
