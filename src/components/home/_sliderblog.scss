@@ -1,0 +1,124 @@
+.sliderblog {
+  &__latest {
+    height: 251px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #2064ad;
+    .img {
+      height: 251px;
+      width: 361px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .detiels {
+      background-color: #2064ad;
+      color: $white;
+      width: calc(100% - 361px);
+      padding: 24px 149px 37px 41px;
+      h4 {
+        font-size: 35px;
+        font-family: $fontOpenSans;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        &::before {
+          content: "";
+          width: 186px;
+          height: 5px;
+          background-color: $white;
+          bottom: -10px;
+          left: 0;
+          position: absolute;
+          z-index: 1;
+        }
+      }
+      p {
+        margin: 24px 0px 24px 0px;
+        font-family: $fontmontserrat;
+        font-size: 20px;
+      }
+      .btn {
+        border: 1px solid $white;
+        color: $white;
+        background-color: #2064ad;
+        width: 134px;
+        height: 41px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-family: $fontOpenSans;
+        transition: all 2s;
+        -webkit-transition: all 2s;
+        -moz-transition: all 2s;
+        -ms-transition: all 2s;
+        -o-transition: all 2s;
+        display: inline-block;
+        &:hover {
+          background-color: $white;
+          color: #2064ad;
+          border: 1px solid #2064ad;
+        }
+      }
+    }
+  }
+
+  &__moreblog {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 24px;
+    a {
+      display: inline-block;
+      width: 186px;
+      height: 58px;
+      text-transform: uppercase;
+      background-color: #1c5da3;
+      color: $white;
+      font-size: 20px;
+      font-family: $fontOpenSans;
+      line-height: 58px;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+    }
+  }
+}
+
+// Style Media Queries In The Max Width ("Mobile Screen").
+@media (max-width: $tab-screen) {
+  .sliderblog {
+    &__latest {
+      height: auto;
+      .img {
+        display: none;
+      }
+      .detiels {
+        width: 100%;
+        text-align: center;
+        padding: 24px 0px;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h4 {
+          font-size: 20px;
+          &::before {
+            content: "";
+            width: 100px;
+            height: 3px;
+            left: 10%;
+          }
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,5 @@
 .blog {
     &__slick {
-    padding: 193px 0px 76px 0px;
     &__card {
       width: 293px;
       .img {
@@ -100,4 +99,10 @@
   }
 }
 
-
+.sliderblog__slick{
+  margin-bottom: 18px;
+  margin-top: 61px;
+}
+.blogslick{
+  padding: 193px 0px 76px 0px;
+}

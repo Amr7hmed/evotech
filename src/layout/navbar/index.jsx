@@ -18,7 +18,7 @@ function Navbar() {
     <header className='navbar'>
         <NavbarUpper/>
         <NavbarBottom handelvisibility={handelvisibility}/>
-        <NavbarMenu visibility={visibility} handelvisibility={handelvisibility}/>
+        <NavbarMenu visibility={visibility} />
     </header>
   )
 }

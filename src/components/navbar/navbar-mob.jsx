@@ -6,19 +6,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function NavbarMenu(props) {
-  const { visibility, handelvisibility } = props;
+  const { visibility } = props;
   return (
     <section className={"vs-menu-wrapper " + visibility}>
       <div className="vs-menu-area navbarmenu">
-        <button
-          type="button"
-          className="btn close__div"
-          onClick={handelvisibility}
-        >
-          <span className="close__icon">
-            <FontAwesomeIcon icon={faXmark} />
-          </span>
-        </button>
         <ul className="navbarmenu__nav">
           <li className="navbarmenu__item">
             <NavLink className="navbarmenu__link" to={"/"} exact>
@@ -39,18 +30,49 @@ function NavbarMenu(props) {
             </NavLink>
           </li>
           <li className="navbarmenu__item">
-            <NavLink className="navbarmenu__link" to={"/services"} exact>
+            <div className="navbarmenu__link">
               <span className="icon">
                 <FontAwesomeIcon icon={faChevronRight} />
                 <FontAwesomeIcon icon={faChevronRight} />
               </span>
-              <span className="item">our services</span>
-            </NavLink>
+              <a
+                className="item"
+                data-bs-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                our services
+              </a>
+              <ul class="collapse" id="collapseExample">
+                <li>
+                  <NavLink className="navbarmenu__drowpmenue websolutions" to={"/websolutions"} exact>
+                    Web Solutions
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="navbarmenu__drowpmenue" to={".."} exact>
+                    Mobile App
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="navbarmenu__drowpmenue" to={".."} exact>
+                    Hosting Servieces
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="navbarmenu__drowpmenue" to={".."} exact>
+                    Development
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
           </li>
           <li className="navbarmenu__item">
             <NavLink className="navbarmenu__link" to={"/contactus"} exact>
               <span className="icon">
-                <FontAwesomeIcon icon={faChevronRight}/>
+                <FontAwesomeIcon icon={faChevronRight} />
                 <FontAwesomeIcon icon={faChevronRight} />
               </span>
               <span className="item">Contact us</span>

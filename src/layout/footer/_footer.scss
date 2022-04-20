@@ -236,6 +236,12 @@
     &__logo {
       margin: 15px auto;
       width: 80%;
+      img {
+        width: 185px;
+      }
+      p {
+        font-size: 14px;
+      }
     }
 
     &__items {
@@ -256,6 +262,9 @@
       margin: 10px auto;
       width: 80%;
       text-align: center;
+      h3 {
+        font-size: 28px;
+      }
       .news {
         display: flex;
         flex-direction: column;
@@ -265,6 +274,26 @@
         border-bottom: 1px solid #0e0e0e;
         .text {
           margin: 15px 0;
+        }
+        .input-group {
+          span {
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            width: 20%;
+            text-align: center;
+          }
+          input {
+            width: auto;
+            font-size: 8px;
+            width: 50%;
+          }
+          button {
+            background-color: #1c5da3;
+            color: $white;
+            font-size: 9px;
+            width: 30%;
+            text-align: center;
+          }
         }
       }
     }

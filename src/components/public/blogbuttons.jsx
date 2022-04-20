@@ -1,25 +1,54 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComments, faThumbsUp } from "@fortawesome/free-regular-svg-icons";
-import { faShareNodes } from "@fortawesome/free-solid-svg-icons";
+import React, { Component } from 'react';
 
-function BlogButtons() {
-  return (
-    <section className="blog__buttons">
-      <button className="btn comments">
-        (4)
-        <FontAwesomeIcon icon={faComments} />
-      </button>
-      <button className="btn">
-        (20)
-        <FontAwesomeIcon icon={faThumbsUp} />
-      </button>
-      <button className="btn ">
-        (10)
-        <FontAwesomeIcon icon={faShareNodes} />
-      </button>
-    </section>
-  );
+import {
+  FacebookShareButton,
+  WhatsappShareButton,
+  LinkedinShareButton,
+  TwitterShareButton,
+  WhatsappIcon,
+  FacebookIcon,
+  LinkedinIcon,
+  TwitterIcon,
+} from 'react-share';
+
+export default class App extends Component {
+  render() {
+    const shareUrl = 'https://www.pakkamarwadi.tk/';
+    return (
+      <div className='blog__buttons'>
+
+        <FacebookShareButton
+          url={shareUrl}
+          quote={'Title or jo bhi aapko likhna ho'}
+          hashtag={'#portfolio...'}
+        >
+          <FacebookIcon size={40} round={true} />
+        </FacebookShareButton>
+
+        <LinkedinShareButton
+          url={shareUrl}
+          quote={'Title or jo bhi aapko likhna ho'}
+          hashtag={'#portfolio...'}
+        >
+          <LinkedinIcon size={40} round={true} />
+        </LinkedinShareButton>
+
+        <TwitterShareButton
+          url={shareUrl}
+          quote={'Title or jo bhi aapko likhna ho'}
+          hashtag={'#portfolio...'}
+        >
+          <TwitterIcon size={40} round={true} />
+        </TwitterShareButton>
+
+        <WhatsappShareButton
+          url={shareUrl}
+          quote={'Title or jo bhi aapko likhna ho'}
+          hashtag={'#portfolio...'}
+        >
+          <WhatsappIcon size={40} round={true} />
+        </WhatsappShareButton>
+      </div>
+    );
+  }
 }
-
-export default BlogButtons;

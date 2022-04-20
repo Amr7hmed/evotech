@@ -1,15 +1,8 @@
-import {
-  faFacebook,
-  faFacebookSquare,
-  faGooglePlusSquare,
-  faTwitterSquare,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
 export default class BlogSlick extends Component {
+  
   render() {
     const settings = {
       dots: false,
@@ -57,8 +50,9 @@ export default class BlogSlick extends Component {
         },
       ],
     };
+    
     return (
-      <div className="blog__slick">
+      <div className={"blog__slick "+ this.props.Styleclass}>
         <div className="container">
           <Slider {...settings}>
             <div className="blog__slick__card">

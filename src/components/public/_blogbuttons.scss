@@ -1,18 +1,6 @@
 .blog {
   &__buttons {
-    button {
-      padding: 3px 8px;
-      margin: 0px 5px;
-      background-color: #2064ad;
-      color: $white;
-      svg {
-        margin-left: 5px;
-      }
-    }
-
-    button.comments {
-      background-color: #121212;
-    }
+    margin-left: 20px;
   }
 }
 

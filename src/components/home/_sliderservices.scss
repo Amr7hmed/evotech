@@ -189,7 +189,7 @@
 
 // Style Media Queries In The Max Width ("Tablet Screen").
 @media (max-width: $tab-screen) {
-  .slider__services{
+  .slider__services {
     height: 638px;
     padding: 40px 0;
   }
@@ -214,7 +214,7 @@
         height: 3px;
       }
     }
-    
+
     .detiles {
       font-size: 15px;
     }
@@ -222,4 +222,7 @@
   .slider__services__slick {
     top: 325px;
   }
+}
+
+@media (max-width: $mobile-screen) {
 }

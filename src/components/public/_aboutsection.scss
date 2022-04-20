@@ -64,37 +64,80 @@
       -o-border-radius: 58px;
       font-size: 20px;
       font-family: $fontOpenSans;
-      &:hover{
+      &:hover {
         background-color: #0684c7;
         color: $white;
       }
-}
+    }
   }
 }
 // Style Media Queries In The Max Width ("Web Screen").
 @media (max-width: $web-screen) {
-    .aboutsection {
-        &__text{
-            margin-top: 30px;
-        }
+  .aboutsection {
+    &__text {
+      margin-top: 30px;
     }
   }
+}
 
-  .hidebutton{
-      display: none !important;
-  }
-  .hidelink{
-    display: none !important;
-  }
-  .styledetiles_serves{
-    p {
-      font-size: 22px !important;
-      color: #707070 !important;
-      margin-bottom: 20px !important;
+.hidebutton {
+  display: none !important;
+}
+.hidelink {
+  display: none !important;
+}
+.styledetiles_serves {
+  p {
+    font-size: 22px !important;
+    color: #707070 !important;
+    margin-bottom: 20px !important;
+    font-weight: 300 !important;
+    &:first-of-type {
       font-weight: 300 !important;
-      &:first-of-type {
-        font-weight: 300 !important;
+    }
+  }
+}
+
+@media (max-width: $tab-screen) {
+  .aboutsection {
+    &__text {
+      .link {
+        font-size: 14px;
+      }
+      h3 {
+        font-size: 20px;
+        &::before {
+          width: 92px;
+          height: 3px;
+        }
+      }
+      .detiles {
+        p {
+          font-size: 15px;
+        }
       }
     }
-
+    &__button {
+      height: 33px;
+      a {
+        background-color: #0684c7;
+        color: $white;
+        width: 110px;
+        height: 33px;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        font-size: 13px;
+        font-family: $fontOpenSans;
+        &:hover {
+          background-color: #0684c7;
+          color: $white;
+        }
+      }
+    }
   }
+}

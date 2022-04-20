@@ -31,7 +31,7 @@ function Blog() {
         </div>
         <BlogReviews/>
         <div className="container">
-          <BlogSlick/>
+          <BlogSlick  Styleclass="blogslick"/>
         </div>
       </div>
     </>
