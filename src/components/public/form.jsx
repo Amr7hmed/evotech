@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Formik } from "formik";
 import * as Yup from "yup";
-import { MyInputField, MyTextField } from "./MyField.jsx";
+import { MyInputField, MyTextField } from "../contact/MyField.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeOpen, faUser } from "@fortawesome/free-regular-svg-icons";
 import {

@@ -1,8 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import Portfolio from "../../components/portfolio";
-import AboutSection from "../../components/public/AboutSection";
-import HeaderPage from "../../components/public/HeaderPage";
+import AboutSection from "../../components/public/about_section";
+import HeaderPage from "../../components/public/header_page";
 import ServicesLanguage from "../../components/services/services_language";
 import Methodology from "../../components/services/services_methodology";
 

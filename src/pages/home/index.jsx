@@ -4,8 +4,8 @@ import SliderBlog from "../../components/home/SliderBlog";
 import SliderHeader from "../../components/home/SliderHeader";
 import SliderProposal from "../../components/home/SliderProposal";
 import SliderServices from "../../components/home/SliderServices";
-import AboutInformation from "../../components/public/AboutInformation";
-import AboutSection from "../../components/public/AboutSection";
+import AboutInformation from "../../components/public/about_Information";
+import AboutSection from "../../components/public/about_section";
 import ClientsSlick from "../../components/slick/clients_slick";
 import TeamSlick from "../../components/slick/team_slick";
 

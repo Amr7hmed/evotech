@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import AboutVision from "../../components/about/aboutvision.jsx";
-import AboutInformation from "../../components/public/AboutInformation";
-import AboutSection from "../../components/public/AboutSection";
-import HeaderPage from "../../components/public/HeaderPage";
+import AboutInformation from "../../components/public/about_Information";
+import AboutSection from "../../components/public/about_section";
+import HeaderPage from "../../components/public/header_page";
 import ClientsSlick from "../../components/slick/clients_slick";
 import TeamSlick from "../../components/slick/team_slick";
 // import { useLocation  } from "react-router-dom";

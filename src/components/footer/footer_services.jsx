@@ -9,7 +9,7 @@ function FooterServices( ) {
       <h4 className="footer__list__header">Services</h4>
       <ul className="list">
         <li>
-          <NavLink  to={"/"} exact>
+          <NavLink  to={"/websolutions"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />
@@ -18,7 +18,7 @@ function FooterServices( ) {
           </NavLink>
         </li>
         <li>
-          <NavLink  to={"/about"} exact>
+          <NavLink  to={"/mobileapp"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />
@@ -27,7 +27,7 @@ function FooterServices( ) {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/services"} exact>
+          <NavLink to={"/hostingservieces"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />
@@ -36,7 +36,7 @@ function FooterServices( ) {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/contactus"} exact>
+          <NavLink to={"/development"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />

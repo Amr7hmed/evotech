@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import HeaderPage from "../../components/public/HeaderPage.jsx";
+import HeaderPage from "../../components/public/header_page.jsx";
 import BlogCard from "../../components/blog/blog_card.jsx";
 import BlogReviews from "../../components/blog/blog_reviews.jsx";
 import BlogSlick from "../../components/slick/blog_slick.jsx";

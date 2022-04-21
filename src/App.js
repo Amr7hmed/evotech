@@ -10,6 +10,7 @@ import WebSolutions from "./pages/services/web_solutions.jsx";
 import Blogs from "./pages/blogs/index.jsx"
 import Blog from "./pages/blog/index.jsx";
 import ContactUs from "./pages/contact/index.jsx";
+import ButtonsWhatsapp from "./components/public/buttonswhatsapp.jsx";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/contactus" component={ContactUs} exact />
             
           </Switch>
+          <ButtonsWhatsapp/>
           <Footer />
         </Routes>
       </StaticContentHolder>

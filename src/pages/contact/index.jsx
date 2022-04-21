@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import ContactForm from '../../components/contact/contact_form';
 import ContactInfo from '../../components/contact/contact_info';
-import HeaderPage from '../../components/public/HeaderPage';
+import HeaderPage from '../../components/public/header_page';
 
 function ContactUs() {
     return (

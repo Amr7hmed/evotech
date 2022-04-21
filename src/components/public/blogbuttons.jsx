@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
 import {
   FacebookShareButton,
   WhatsappShareButton,
@@ -9,46 +8,49 @@ import {
   FacebookIcon,
   LinkedinIcon,
   TwitterIcon,
-} from 'react-share';
+} from "react-share";
 
-export default class App extends Component {
-  render() {
-    const shareUrl = 'https://www.pakkamarwadi.tk/';
-    return (
-      <div className='blog__buttons'>
+function BlogButtons(props) {
+  const { ShareUrl } = props;
+  return (
+    <div className="blog__buttons">
+      <FacebookShareButton
+        url={ShareUrl}
+        quote={"Title or jo bhi aapko likhna ho"}
+        hashtag={"#portfolio..."}
+        className="blog__button"
+      >
+        <FacebookIcon size={35} round={true} />
+      </FacebookShareButton>
 
-        <FacebookShareButton
-          url={shareUrl}
-          quote={'Title or jo bhi aapko likhna ho'}
-          hashtag={'#portfolio...'}
-        >
-          <FacebookIcon size={40} round={true} />
-        </FacebookShareButton>
+      <LinkedinShareButton
+        url={ShareUrl}
+        quote={"Title or jo bhi aapko likhna ho"}
+        hashtag={"#portfolio..."}
+        className="blog__button"
+      >
+        <LinkedinIcon size={35} round={true} />
+      </LinkedinShareButton>
 
-        <LinkedinShareButton
-          url={shareUrl}
-          quote={'Title or jo bhi aapko likhna ho'}
-          hashtag={'#portfolio...'}
-        >
-          <LinkedinIcon size={40} round={true} />
-        </LinkedinShareButton>
+      <TwitterShareButton
+        url={ShareUrl}
+        quote={"Title or jo bhi aapko likhna ho"}
+        hashtag={"#portfolio..."}
+        className="blog__button"
+      >
+        <TwitterIcon size={35} round={true} />
+      </TwitterShareButton>
 
-        <TwitterShareButton
-          url={shareUrl}
-          quote={'Title or jo bhi aapko likhna ho'}
-          hashtag={'#portfolio...'}
-        >
-          <TwitterIcon size={40} round={true} />
-        </TwitterShareButton>
-
-        <WhatsappShareButton
-          url={shareUrl}
-          quote={'Title or jo bhi aapko likhna ho'}
-          hashtag={'#portfolio...'}
-        >
-          <WhatsappIcon size={40} round={true} />
-        </WhatsappShareButton>
-      </div>
-    );
-  }
+      <WhatsappShareButton
+        url={ShareUrl}
+        quote={"Title or jo bhi aapko likhna ho"}
+        hashtag={"#portfolio..."}
+        className="blog__button"
+      >
+        <WhatsappIcon size={35} round={true} />
+      </WhatsappShareButton>
+    </div>
+  );
 }
+
+export default BlogButtons;

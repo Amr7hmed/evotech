@@ -1,92 +1,28 @@
 .blog {
   &__review {
     background-color: #ededed;
-    padding: 65px 0px 174px 0px;
+    padding: 65px 0px 65px 0px;
+  }
+  &__form{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 24px 27px;
+    margin: 28px 0px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    -webkit-box-shadow: 1px 1px 8px 3px rgba(212, 208, 212, 1);
+    -moz-box-shadow: 1px 1px 8px 3px rgba(212, 208, 212, 1);
+    box-shadow: 1px 1px 8px 3px rgba(212, 208, 212, 1);
   }
   &__reviews {
     padding: 0px 65px;
-    &__row {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-    &__all {
+    &__all,&__form {
       background-color: #ffffff;
-      width: 761px;
+      width: 100%;
       padding: 24px 27px;
-      margin: 28px 0px;
-      border-radius: 9px;
-      -webkit-border-radius: 9px;
-      -moz-border-radius: 9px;
-      -ms-border-radius: 9px;
-      -o-border-radius: 9px;
-
-      -webkit-box-shadow: 1px 1px 8px 3px rgba(212, 208, 212, 1);
-      -moz-box-shadow: 1px 1px 8px 3px rgba(212, 208, 212, 1);
-      box-shadow: 1px 1px 8px 3px rgba(212, 208, 212, 1);
-      .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 49px;
-        align-items: center;
-        h5 {
-          font-size: 22px;
-          font-weight: bold;
-          font-family: $fontOpenSans;
-        }
-        button {
-          width: 145px;
-          height: 49px;
-          background-color: #2064ad;
-          font-family: $fontOpenSans;
-          color: $white;
-          text-transform: uppercase;
-          font-size: 16px;
-          border-radius: 40px;
-        }
-      }
-      .average {
-        svg {
-          color: #000000;
-          margin-right: 8px;
-          font-size: 24px;
-        }
-        .number {
-          font-family: $fontoswald;
-          font-size: 15px;
-          font-weight: 500;
-          margin-right: 15px;
-          span {
-            font-size: 28px;
-            font-weight: bold;
-          }
-        }
-        .text {
-          font-size: 16px;
-          font-family: $fontOpenSans;
-          font-weight: 400;
-        }
-      }
-
-      .viewall {
-        margin: 37px 0px 34px 0px;
-        text-align: center;
-        a {
-          font-weight: 600;
-          font-size: 16px;
-          font-family: $fontoswald;
-          color: #000000;
-          border-bottom: 1px solid #000000;
-        }
-      }
-    }
-
-    &__top {
-      background-color: #ffffff;
-      width: 344px;
-      padding: 24px 23px;
       margin: 28px 0px;
       border-radius: 9px;
       -webkit-border-radius: 9px;
@@ -207,8 +143,7 @@
         justify-content: space-between;
         align-items: flex-start;
       }
-      &__all,
-      &__top {
+      &__all {
         width: 100%;
       }
     }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import ButtonsFiltter from "../../components/public/buttons_filtter";
-import HeaderPage from "../../components/public/HeaderPage";
+import HeaderPage from "../../components/public/header_page";
 import BlogsCard from "../../components/blogs/blogs_card";
 
 function Blogs() {

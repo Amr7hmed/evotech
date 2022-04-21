@@ -122,71 +122,9 @@
   }
 }
 
-.contact {
-  &__form {
-    .contenerform {
-      padding: 47px 55px;
-      .fielddiv {
-        position: relative;
-        height: 61px;
-        margin-bottom: 25px;
-        span {
-          position: absolute;
-          z-index: 1;
-          display: inline-block;
-          height: 100%;
-          width: 61px;
-          left: 0;
-          text-align: center;
-          line-height: 61px;
-          color: #9e9fa4;
 
-          svg {
-            width: 17px;
-            height: 17px;
-          }
-        }
-        input,
-        textarea {
-          height: 61px;
-          padding-left: 62px;
-          font-size: 16px;
-          font-family: $fontOpenSans;
-        }
-        textarea {
-          height: 201px;
-          line-height: 1;
-          padding-top: 20px;
-        }
-      }
 
-      .buttonfield {
-        text-align: right;
-        button {
-          display: inline-block;
-          width: 148px;
-          height: 42px;
-          border-radius: 20px;
-          -webkit-border-radius: 20px;
-          -moz-border-radius: 20px;
-          -ms-border-radius: 20px;
-          -o-border-radius: 20px;
-          background-color: #2064ad;
-          color: $white;
-          font-size: 14x;
-          font-weight: bold;
-          font-family: $fontOpenSans;
-          img {
-            margin-right: 8px;
-          }
-        }
-      }
-    }
-  }
-}
-.errorfiled {
-  color: red;
-}
+
 
 // Tablet Screen
 // Style Media Queries In The Max Width ("Tablet Screen").
@@ -271,9 +209,6 @@
       padding: 45px 0px 45px 0px;
       h4 {
         font-size: 28px;
-      }
-      .contenerform {
-        padding: 47px 5px;
       }
     }
   }

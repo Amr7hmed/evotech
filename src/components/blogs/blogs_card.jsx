@@ -37,7 +37,7 @@ function BlogsCard(props) {
         <div className="read">
           <NavLink className="btn" to={"/blog"} exact> Read More</NavLink>
         </div>
-        <BlogButtons/>
+        <BlogButtons ShareUrl={'https://www.pakkamarwadi.tk/'}/>
       </div>
     </div>
   );
