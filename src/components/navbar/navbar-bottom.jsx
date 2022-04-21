@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Imagelogo  from "../../images/logo/logo-header.png";
+import Imagenavmob from "../../images/icon/navmobile.png";
 
 function NavbarBottom(props) {
   const { handelvisibility } = props;
@@ -8,9 +10,9 @@ function NavbarBottom(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light navbar__bottom">
       <div className="container">
-        <NavLink className="navbar-brand" to="/" exact>
+        <NavLink className="navbar-brand" to="/evotech" exact>
           <img
-            src="./assets/images/logo/logo-header.png"
+            src={Imagelogo}
             alt="EvoTech logo"
             width={"270px"}
             height={"60px"}
@@ -25,7 +27,7 @@ function NavbarBottom(props) {
           onClick={handelvisibility}
         >
           <img
-            src="./assets/images/icon/navmobile.png"
+            src={Imagenavmob}
             alt="nav mobile icon"
             width={"60px"}
             height={"60px"}
@@ -34,7 +36,7 @@ function NavbarBottom(props) {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link" aria-current="page" to={"/"} exact>
+              <NavLink className="nav-link" aria-current="page" to={"/evotech"} exact>
                 Home
               </NavLink>
             </li>

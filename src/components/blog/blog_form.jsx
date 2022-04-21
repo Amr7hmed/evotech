@@ -7,7 +7,8 @@ import {
   faTextWidth,
 } from "@fortawesome/free-solid-svg-icons";
 import { MyInputField, MyTextField } from "../contact/MyField";
-import Stars from "./stars";
+import IconImage from "../../images/icon/solid.png";
+
 
 const BlogSchema = Yup.object().shape({
     name: Yup.string()
@@ -67,7 +68,7 @@ function BlogForm() {
 
           <div className="col-12 buttonfield">
             <button type="submit" className="btn">
-                <img src="./assets/images/icon/solid.png" alt="Submit" />
+                <img src={IconImage} alt="Submit" />
                 Submit
                 </button>
           </div>

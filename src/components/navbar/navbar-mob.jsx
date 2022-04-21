@@ -12,7 +12,7 @@ function NavbarMenu(props) {
       <div className="vs-menu-area navbarmenu">
         <ul className="navbarmenu__nav">
           <li className="navbarmenu__item">
-            <NavLink className="navbarmenu__link" to={"/"} exact>
+            <NavLink className="navbarmenu__link" to={"/evotech"} exact>
               <span className="icon">
                 <FontAwesomeIcon icon={faChevronRight} />
                 <FontAwesomeIcon icon={faChevronRight} />

@@ -1,9 +1,9 @@
-import { faStar } from "@fortawesome/free-regular-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import BlogButtons from "../public/blogbuttons";
 import BlogForm from "./blog_form";
 import ReviewsCard from "./reviewscard";
+
+import UserImage from "../../images/icon/user-tie.png";
 
 function BlogReviews() {
   return (
@@ -16,17 +16,17 @@ function BlogReviews() {
               <div className="blog__reviews__cards">
                 <ReviewsCard
                   Styleclass={"stylereviews"}
-                  Image="./assets/images/icon/user-tie.png"
+                  Image={UserImage}
                   Name={"Name Surname"}
                 />
                 <ReviewsCard
                   Styleclass={"stylereviews"}
-                  Image="./assets/images/icon/user-tie.png"
+                  Image={UserImage}
                   Name={"Name Surname"}
                 />
                 <ReviewsCard
                   Styleclass={"stylereviews"}
-                  Image="./assets/images/icon/user-tie.png"
+                  Image={UserImage}
                   Name={"Name Surname"}
                 />
 

@@ -7,6 +7,7 @@ import {
   faInstagram,
   faGooglePlusG,
 } from "@fortawesome/free-brands-svg-icons";
+import Imagelogo from "../../images/icon/langth.png";
 
 function NavbarUpper() {
   return (
@@ -50,7 +51,7 @@ function NavbarUpper() {
             </li>
             <li className="lan">
               <span>
-              <img src="./assets/images/icon/langth.png" alt="langth" width={"28px"} height={"30px"} />
+              <img src={Imagelogo} alt="langth" width={"28px"} height={"30px"} />
               <span className="text">Ar</span>
               </span>
             </li>

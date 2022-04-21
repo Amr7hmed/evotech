@@ -3,12 +3,7 @@ import ServicesSlick from "../slick/services_slick";
 
 function SliderServices() {
   return (
-    <section
-      className="slider__services"
-      style={{
-        backgroundImage: `url("./assets/images/public/services_slider_home.jpg")`,
-      }}
-    >
+    <section className="slider__services">
       <div className="overload"></div>
       <div className="container">
         <div className="slider__services__titleback">Services</div>

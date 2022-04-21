@@ -8,6 +8,7 @@ import AboutInformation from "../../components/public/about_Information";
 import AboutSection from "../../components/public/about_section";
 import ClientsSlick from "../../components/slick/clients_slick";
 import TeamSlick from "../../components/slick/team_slick";
+import AboutSectionHome from "../../images/public/about__section__home.png";
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
       </Helmet>
       <div>
           <SliderHeader/>
-          <AboutSection Image="./assets/images/public/about__section__home.png" Title="Who are we"/>
+          <AboutSection Image={AboutSectionHome} Title="Who are we"/>
           <AboutInformation Styleclass="bg_light"/>
           <SliderServices/>
           <SliderBlog/>

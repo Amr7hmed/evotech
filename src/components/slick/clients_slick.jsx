@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import ImageClentOne from "../../images/clients/img_one.png";
+import ImageClentTwo from "../../images/clients/img_two.png";
+import ImageClentThree from "../../images/clients/img_three.png";
+import ImageClentFour from "../../images/clients/img_four.png";
+import ImageClentFive from "../../images/clients/img_five.png";
+
 
 export default class ClientsSlick extends Component {
   render() {
@@ -64,7 +70,7 @@ export default class ClientsSlick extends Component {
             <div className="clients__card">
               <div className="img">
                 <img
-                  src="./assets/images/clients/img_one.png"
+                  src={ImageClentOne}
                   alt="man one"
                   className="img"
                 />
@@ -74,7 +80,7 @@ export default class ClientsSlick extends Component {
             <div className="clients__card">
               <div className="img">
                 <img
-                  src="./assets/images/clients/img_two.png"
+                  src={ImageClentTwo}
                   alt="man one"
                   className="img"
                 />
@@ -85,7 +91,7 @@ export default class ClientsSlick extends Component {
             <div className="clients__card">
               <div className="img">
                 <img
-                  src="./assets/images/clients/img_three.png"
+                  src={ImageClentThree}
                   alt="man one"
                   className="img"
                 />
@@ -96,7 +102,7 @@ export default class ClientsSlick extends Component {
             <div className="clients__card">
               <div className="img">
                 <img
-                  src="./assets/images/clients/img_four.png"
+                  src={ImageClentFour}
                   alt="man one"
                   className="img"
                 />
@@ -107,7 +113,7 @@ export default class ClientsSlick extends Component {
             <div className="clients__card">
               <div className="img">
                 <img
-                  src="./assets/images/clients/img_five.png"
+                  src={ImageClentFive}
                   alt="man one"
                   className="img"
                 />

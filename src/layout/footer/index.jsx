@@ -5,12 +5,7 @@ import FooterLogo from "../../components/footer/footer_logo";
 function Footer() {
   return (
     <footer>
-      <section
-        className="footer"
-        style={{
-          backgroundImage: `url("./assets/images/bg/footer.jpg")`,
-        }}
-      >
+      <section className="footer">
         <div className="overload"></div>
         <div className="container">
           <div className="row">

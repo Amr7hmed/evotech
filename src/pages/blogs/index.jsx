@@ -3,17 +3,24 @@ import { Helmet } from "react-helmet-async";
 import ButtonsFiltter from "../../components/public/buttons_filtter";
 import HeaderPage from "../../components/public/header_page";
 import BlogsCard from "../../components/blogs/blogs_card";
+import BlogHeaderImage from "../../images/bg/blog_header.jpg";
+
+import BlogImage1 from "../../images/blogs/img_1.png";
+import BlogImage2 from "../../images/blogs/img_2.png";
+import BlogImage3 from "../../images/blogs/img_3.png";
+import BlogImage4 from "../../images/blogs/img_4.png";
+import BlogImage5 from "../../images/blogs/img_5.png";
 
 function Blogs() {
   
-  const Items = [
-    "./assets/images/blogs/img_1.png",
-    "./assets/images/blogs/img_2.png",
-    "./assets/images/blogs/img_3.png",
-    "./assets/images/blogs/img_4.png",
-    "./assets/images/blogs/img_5.png",
-  ];
   
+  const Items = [
+    BlogImage1,
+    BlogImage2,
+    BlogImage3,
+    BlogImage4,
+    BlogImage5,
+  ];
   return (
     <>
       <Helmet>
@@ -26,7 +33,7 @@ function Blogs() {
         <link rel="canonical" href="/about" />
       </Helmet>
       <div>
-        <HeaderPage Image="./assets/images/bg/blog_header.jpg" Title="Blogs" />
+        <HeaderPage Image={BlogHeaderImage} Title="Blogs" />
         <ButtonsFiltter Styleclass="mr_blog" />
         <div className="container">
           {Items.map((img, index) => (

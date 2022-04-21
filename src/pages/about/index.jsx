@@ -6,12 +6,11 @@ import AboutSection from "../../components/public/about_section";
 import HeaderPage from "../../components/public/header_page";
 import ClientsSlick from "../../components/slick/clients_slick";
 import TeamSlick from "../../components/slick/team_slick";
-// import { useLocation  } from "react-router-dom";
+import AboutSectionImg from "../../images/public/about__section__about.png";
+import AboutHeaderImg from "../../images/bg/about_header.jpg";
 
 
 function Aboutus() {
-  // const params = useLocation ();
-  // console.log(params.pathname)
   return (
     <>
       <Helmet>
@@ -25,8 +24,8 @@ function Aboutus() {
       </Helmet>
       <div>
         
-      <HeaderPage Image="./assets/images/bg/about_header.jpg" Title="About Us"/>
-      <AboutSection Styleclass="hidebutton" Image="./assets/images/public/about__section__about.png" Title="Who are we"/>
+      <HeaderPage Image={AboutHeaderImg} Title="About Us"/>
+      <AboutSection Styleclass="hidebutton" Image={AboutSectionImg} Title="Who are we"/>
       <AboutVision/>
       <AboutInformation Styleclass="bg_primary"/>
       <TeamSlick/>

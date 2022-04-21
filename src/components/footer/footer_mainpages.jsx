@@ -9,7 +9,7 @@ function FooterMainpages( ) {
       <h4 className="footer__list__header">MAIN PAGES</h4>
       <ul className="list">
         <li>
-          <NavLink  to={"/"} exact>
+          <NavLink  to={"/evotech"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />

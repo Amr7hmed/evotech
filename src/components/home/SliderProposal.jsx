@@ -2,12 +2,7 @@ import React from "react";
 
 function SliderProposal() {
   return (
-    <section
-      className="slider__proposal"
-      style={{
-        backgroundImage: `url("./assets/images/public/proposal_slider_home.jpg")`,
-      }}
-    >
+    <section className="slider__proposal">
       <div className="overload"></div>
       <div className="container">
         <div className="detiles">

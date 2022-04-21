@@ -3,6 +3,14 @@ import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
 import Slider from "react-slick";
+import ImageManOne from "../../images/team/man_one.png";
+import ImageManTwo from "../../images/team/man_two.png";
+import ImageManThree from "../../images/team/man_three.png";
+import ImageManFour from "../../images/team/man_four.png";
+
+
+
+
 
 export default class TeamSlick extends Component {
   render() {
@@ -67,7 +75,7 @@ export default class TeamSlick extends Component {
             <div className="team__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/team/man_one.png"
+                  src={ImageManOne}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -97,7 +105,7 @@ export default class TeamSlick extends Component {
             <div className="team__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/team/man_two.png"
+                  src={ImageManTwo}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -127,128 +135,7 @@ export default class TeamSlick extends Component {
             <div className="team__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/team/man_three.png"
-                  alt="man one"
-                  width={"277px"}
-                  height={"100%"}
-                  className="img"
-                />
-              </div>
-              <div className="data">
-                <h6>Dr. Mohamed Ahmed</h6>
-                <p>Chairman of Board of Directors</p>
-                <div className="soceilmeda">
-                  <a href="#" className="facebook">
-                    <FontAwesomeIcon icon={faFacebookSquare} />
-                  </a>
-                  <a href="#" className="twitter">
-                    <FontAwesomeIcon icon={faTwitterSquare} />
-                  </a>
-                  <a href="#" className="googleplus">
-                    <FontAwesomeIcon icon={faGooglePlusSquare} />
-                  </a>
-                  <a href="#" className="envelope">
-                    <FontAwesomeIcon icon={faEnvelopeSquare} />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            
-            <div className="team__slick__card">
-              <div className="img">
-                <img
-                  src="./assets/images/team/man_four.png"
-                  alt="man one"
-                  width={"277px"}
-                  height={"100%"}
-                  className="img"
-                />
-              </div>
-              <div className="data">
-                <h6>Dr. Mohamed Ahmed</h6>
-                <p>Chairman of Board of Directors</p>
-                <div className="soceilmeda">
-                  <a href="#" className="facebook">
-                    <FontAwesomeIcon icon={faFacebookSquare} />
-                  </a>
-                  <a href="#" className="twitter">
-                    <FontAwesomeIcon icon={faTwitterSquare} />
-                  </a>
-                  <a href="#" className="googleplus">
-                    <FontAwesomeIcon icon={faGooglePlusSquare} />
-                  </a>
-                  <a href="#" className="envelope">
-                    <FontAwesomeIcon icon={faEnvelopeSquare} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="team__slick__card">
-              <div className="img">
-                <img
-                  src="./assets/images/team/man_one.png"
-                  alt="man one"
-                  width={"277px"}
-                  height={"100%"}
-                  className="img"
-                />
-              </div>
-              <div className="data">
-                <h6>Dr. Mohamed Ahmed</h6>
-                <p>Chairman of Board of Directors</p>
-                <div className="soceilmeda">
-                  <a href="#" className="facebook">
-                    <FontAwesomeIcon icon={faFacebookSquare} />
-                  </a>
-                  <a href="#" className="twitter">
-                    <FontAwesomeIcon icon={faTwitterSquare} />
-                  </a>
-                  <a href="#" className="googleplus">
-                    <FontAwesomeIcon icon={faGooglePlusSquare} />
-                  </a>
-                  <a href="#" className="envelope">
-                    <FontAwesomeIcon icon={faEnvelopeSquare} />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="team__slick__card">
-              <div className="img">
-                <img
-                  src="./assets/images/team/man_two.png"
-                  alt="man one"
-                  width={"277px"}
-                  height={"100%"}
-                  className="img"
-                />
-              </div>
-              <div className="data">
-                <h6>Dr. Mohamed Ahmed</h6>
-                <p>Chairman of Board of Directors</p>
-                <div className="soceilmeda">
-                  <a href="#" className="facebook">
-                    <FontAwesomeIcon icon={faFacebookSquare} />
-                  </a>
-                  <a href="#" className="twitter">
-                    <FontAwesomeIcon icon={faTwitterSquare} />
-                  </a>
-                  <a href="#" className="googleplus">
-                    <FontAwesomeIcon icon={faGooglePlusSquare} />
-                  </a>
-                  <a href="#" className="envelope">
-                    <FontAwesomeIcon icon={faEnvelopeSquare} />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="team__slick__card">
-              <div className="img">
-                <img
-                  src="./assets/images/team/man_three.png"
+                  src={ImageManThree}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -279,7 +166,128 @@ export default class TeamSlick extends Component {
             <div className="team__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/team/man_four.png"
+                  src={ImageManFour}
+                  alt="man one"
+                  width={"277px"}
+                  height={"100%"}
+                  className="img"
+                />
+              </div>
+              <div className="data">
+                <h6>Dr. Mohamed Ahmed</h6>
+                <p>Chairman of Board of Directors</p>
+                <div className="soceilmeda">
+                  <a href="#" className="facebook">
+                    <FontAwesomeIcon icon={faFacebookSquare} />
+                  </a>
+                  <a href="#" className="twitter">
+                    <FontAwesomeIcon icon={faTwitterSquare} />
+                  </a>
+                  <a href="#" className="googleplus">
+                    <FontAwesomeIcon icon={faGooglePlusSquare} />
+                  </a>
+                  <a href="#" className="envelope">
+                    <FontAwesomeIcon icon={faEnvelopeSquare} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <div className="team__slick__card">
+              <div className="img">
+                <img
+                  src={ImageManOne}
+                  alt="man one"
+                  width={"277px"}
+                  height={"100%"}
+                  className="img"
+                />
+              </div>
+              <div className="data">
+                <h6>Dr. Mohamed Ahmed</h6>
+                <p>Chairman of Board of Directors</p>
+                <div className="soceilmeda">
+                  <a href="#" className="facebook">
+                    <FontAwesomeIcon icon={faFacebookSquare} />
+                  </a>
+                  <a href="#" className="twitter">
+                    <FontAwesomeIcon icon={faTwitterSquare} />
+                  </a>
+                  <a href="#" className="googleplus">
+                    <FontAwesomeIcon icon={faGooglePlusSquare} />
+                  </a>
+                  <a href="#" className="envelope">
+                    <FontAwesomeIcon icon={faEnvelopeSquare} />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="team__slick__card">
+              <div className="img">
+                <img
+                  src={ImageManTwo}
+                  alt="man one"
+                  width={"277px"}
+                  height={"100%"}
+                  className="img"
+                />
+              </div>
+              <div className="data">
+                <h6>Dr. Mohamed Ahmed</h6>
+                <p>Chairman of Board of Directors</p>
+                <div className="soceilmeda">
+                  <a href="#" className="facebook">
+                    <FontAwesomeIcon icon={faFacebookSquare} />
+                  </a>
+                  <a href="#" className="twitter">
+                    <FontAwesomeIcon icon={faTwitterSquare} />
+                  </a>
+                  <a href="#" className="googleplus">
+                    <FontAwesomeIcon icon={faGooglePlusSquare} />
+                  </a>
+                  <a href="#" className="envelope">
+                    <FontAwesomeIcon icon={faEnvelopeSquare} />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="team__slick__card">
+              <div className="img">
+                <img
+                  src={ImageManThree}
+                  alt="man one"
+                  width={"277px"}
+                  height={"100%"}
+                  className="img"
+                />
+              </div>
+              <div className="data">
+                <h6>Dr. Mohamed Ahmed</h6>
+                <p>Chairman of Board of Directors</p>
+                <div className="soceilmeda">
+                  <a href="#" className="facebook">
+                    <FontAwesomeIcon icon={faFacebookSquare} />
+                  </a>
+                  <a href="#" className="twitter">
+                    <FontAwesomeIcon icon={faTwitterSquare} />
+                  </a>
+                  <a href="#" className="googleplus">
+                    <FontAwesomeIcon icon={faGooglePlusSquare} />
+                  </a>
+                  <a href="#" className="envelope">
+                    <FontAwesomeIcon icon={faEnvelopeSquare} />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            
+            <div className="team__slick__card">
+              <div className="img">
+                <img
+                  src={ImageManFour}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}

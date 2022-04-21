@@ -1,4 +1,9 @@
 import React from "react";
+import Imgone from "../../images/bg/home_bg_one.jpg";
+import Imgtwo from "../../images/bg/home_bg_two.png";
+import Imgthree from "../../images/bg/home_bg_three.png";
+
+
 
 function SliderHeader() {
   return (
@@ -34,7 +39,7 @@ function SliderHeader() {
           <div className="carousel-item active">
             <div className="overload"></div>
             <img
-              src="./assets/images/bg/home_bg_one.jpg"
+              src={Imgone}
               className="d-block w-100"
               alt="Home Background"
             />
@@ -55,7 +60,7 @@ function SliderHeader() {
           <div className="carousel-item">
             <div className="overload"></div>
             <img
-              src="./assets/images/bg/home_bg_two.png"
+              src={Imgtwo}
               className="d-block w-100"
               alt="Home Background"
             />
@@ -77,7 +82,7 @@ function SliderHeader() {
           <div className="carousel-item">
             <div className="overload"></div>
             <img
-              src="./assets/images/bg/home_bg_three.png"
+              src={Imgthree}
               className="d-block w-100"
               alt="Home Background"
             />

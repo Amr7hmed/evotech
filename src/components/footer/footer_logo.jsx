@@ -7,12 +7,13 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import LogoFooterImage from "../../images/logo/logo-footer.png";
 
 function FooterLogo() {
   return (
     <div className="footer__logo">
       <img
-        src="./assets/images/logo/logo-footer.png"
+        src={LogoFooterImage}
         alt="EvoTech logo"
         width={"204px"}
         height={"137px"}

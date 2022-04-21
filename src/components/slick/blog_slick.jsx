@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import BlogSlickImg from "../../images/blogs/blogslick.png";
 
 export default class BlogSlick extends Component {
   
@@ -58,7 +59,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -84,7 +85,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -110,7 +111,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -136,7 +137,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -162,7 +163,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -187,7 +188,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -212,33 +213,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
-                  alt="man one"
-                  width={"277px"}
-                  height={"100%"}
-                  className="img"
-                />
-                <div className="category">category</div>
-              </div>
-              <div className="data">
-                <div className="header">
-                  <div className="link">
-                    26/06/2017, POSTED BY <span>KHALID SAIED</span>
-                  </div>
-                  <h6>PROFESSIONAL BIDDING</h6>
-                </div>
-                <div className="detiles">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
-                </div>
-              </div>
-            </div>
-
-            
-            <div className="blog__slick__card">
-              <div className="img">
-                <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -264,7 +239,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -290,7 +265,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -316,7 +291,33 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
+                  alt="man one"
+                  width={"277px"}
+                  height={"100%"}
+                  className="img"
+                />
+                <div className="category">category</div>
+              </div>
+              <div className="data">
+                <div className="header">
+                  <div className="link">
+                    26/06/2017, POSTED BY <span>KHALID SAIED</span>
+                  </div>
+                  <h6>PROFESSIONAL BIDDING</h6>
+                </div>
+                <div className="detiles">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor Lorem ipsum dolor sit amet, consectetur
+                </div>
+              </div>
+            </div>
+
+            
+            <div className="blog__slick__card">
+              <div className="img">
+                <img
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}
@@ -341,7 +342,7 @@ export default class BlogSlick extends Component {
             <div className="blog__slick__card">
               <div className="img">
                 <img
-                  src="./assets/images/blogs/blogslick.png"
+                  src={BlogSlickImg}
                   alt="man one"
                   width={"277px"}
                   height={"100%"}

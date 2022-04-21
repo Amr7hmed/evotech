@@ -4,6 +4,9 @@ import HeaderPage from "../../components/public/header_page.jsx";
 import BlogCard from "../../components/blog/blog_card.jsx";
 import BlogReviews from "../../components/blog/blog_reviews.jsx";
 import BlogSlick from "../../components/slick/blog_slick.jsx";
+import BlogHeaderImage from "../../images/bg/blog_header.jpg";
+import BlogItemImage from "../../images/blogs/img_5.png";
+
 
 function Blog() {
   return (
@@ -19,14 +22,14 @@ function Blog() {
       </Helmet>
       <div>
         <HeaderPage
-          Image="./assets/images/bg/blog_header.jpg"
+          Image={BlogHeaderImage}
           Title="Blog Title"
         />
 
         <div className="container">
           <BlogCard
             Title={"Blog Title"}
-            Img={"./assets/images/blogs/img_5.png"}
+            Img={BlogItemImage}
           />
         </div>
         <BlogReviews/>
