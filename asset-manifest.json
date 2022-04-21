@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/evotech-site/static/css/main.e688b11a.chunk.css",
+    "main.js": "/evotech-site/static/js/main.1b332ba3.chunk.js",
+    "main.js.map": "/evotech-site/static/js/main.1b332ba3.chunk.js.map",
+    "runtime-main.js": "/evotech-site/static/js/runtime-main.44bfd61f.js",
+    "runtime-main.js.map": "/evotech-site/static/js/runtime-main.44bfd61f.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/evotech-site/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.116d10bc.chunk.js": "/evotech-site/static/js/2.116d10bc.chunk.js",
+    "static/js/2.116d10bc.chunk.js.map": "/evotech-site/static/js/2.116d10bc.chunk.js.map",
+    "static/js/3.28fb5f1f.chunk.js": "/evotech-site/static/js/3.28fb5f1f.chunk.js",
+    "static/js/3.28fb5f1f.chunk.js.map": "/evotech-site/static/js/3.28fb5f1f.chunk.js.map",
+    "index.html": "/evotech-site/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/evotech-site/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.e688b11a.chunk.css.map": "/evotech-site/static/css/main.e688b11a.chunk.css.map",
+    "static/js/2.116d10bc.chunk.js.LICENSE.txt": "/evotech-site/static/js/2.116d10bc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44bfd61f.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.116d10bc.chunk.js",
+    "static/css/main.e688b11a.chunk.css",
+    "static/js/main.1b332ba3.chunk.js"
+  ]
+}
