@@ -27,12 +27,12 @@ function FooterMainpages( ) {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/services"} exact>
+          <NavLink to={"/blogs"} exact>
             <span className="icon">
               <FontAwesomeIcon icon={faChevronRight} />
               <FontAwesomeIcon icon={faChevronRight} />
             </span>
-            <span className="item">Our Services</span>
+            <span className="item">Blog</span>
           </NavLink>
         </li>
         <li>

@@ -6,13 +6,18 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function NavbarMenu(props) {
-  const { visibility } = props;
+  const { visibility, hidevisibility } = props;
   return (
     <section className={"vs-menu-wrapper " + visibility}>
       <div className="vs-menu-area navbarmenu">
         <ul className="navbarmenu__nav">
           <li className="navbarmenu__item">
-            <NavLink className="navbarmenu__link" to={"/evotech"} exact>
+            <NavLink
+              className="navbarmenu__link"
+              to={"/evotech"}
+              exact
+              onClick={hidevisibility}
+            >
               <span className="icon">
                 <FontAwesomeIcon icon={faChevronRight} />
                 <FontAwesomeIcon icon={faChevronRight} />
@@ -21,7 +26,12 @@ function NavbarMenu(props) {
             </NavLink>
           </li>
           <li className="navbarmenu__item">
-            <NavLink className="navbarmenu__link" to={"/about"} exact>
+            <NavLink
+              className="navbarmenu__link"
+              to={"/about"}
+              exact
+              onClick={hidevisibility}
+            >
               <span className="icon">
                 <FontAwesomeIcon icon={faChevronRight} />
                 <FontAwesomeIcon icon={faChevronRight} />
@@ -47,22 +57,42 @@ function NavbarMenu(props) {
               </a>
               <ul class="collapse" id="collapseExample">
                 <li>
-                  <NavLink className="navbarmenu__drowpmenue websolutions" to={"/websolutions"} exact>
+                  <NavLink
+                    className="navbarmenu__drowpmenue websolutions"
+                    to={"/websolutions"}
+                    exact
+                    onClick={hidevisibility}
+                  >
                     Web Solutions
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="navbarmenu__drowpmenue" to={".."} exact>
+                  <NavLink
+                    className="navbarmenu__drowpmenue"
+                    to={".."}
+                    exact
+                    onClick={hidevisibility}
+                  >
                     Mobile App
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="navbarmenu__drowpmenue" to={".."} exact>
+                  <NavLink
+                    className="navbarmenu__drowpmenue"
+                    to={".."}
+                    exact
+                    onClick={hidevisibility}
+                  >
                     Hosting Servieces
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="navbarmenu__drowpmenue" to={".."} exact>
+                  <NavLink
+                    className="navbarmenu__drowpmenue"
+                    to={".."}
+                    exact
+                    onClick={hidevisibility}
+                  >
                     Development
                   </NavLink>
                 </li>
@@ -70,7 +100,12 @@ function NavbarMenu(props) {
             </div>
           </li>
           <li className="navbarmenu__item">
-            <NavLink className="navbarmenu__link" to={"/contactus"} exact>
+            <NavLink
+              className="navbarmenu__link"
+              to={"/contactus"}
+              exact
+              onClick={hidevisibility}
+            >
               <span className="icon">
                 <FontAwesomeIcon icon={faChevronRight} />
                 <FontAwesomeIcon icon={faChevronRight} />

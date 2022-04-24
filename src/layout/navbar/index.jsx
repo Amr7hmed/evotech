@@ -14,11 +14,16 @@ function Navbar() {
     setVisibility("vshide")
    }
   }
+
+  function hidevisibility(){
+    setTimeout(
+      setVisibility("vshide"),6000);
+  }
   return (
     <header className='navbar'>
         <NavbarUpper/>
         <NavbarBottom handelvisibility={handelvisibility}/>
-        <NavbarMenu visibility={visibility} />
+        <NavbarMenu visibility={visibility} hidevisibility={hidevisibility}/>
     </header>
   )
 }

@@ -4,6 +4,8 @@ import ContactForm from '../../components/contact/contact_form';
 import ContactInfo from '../../components/contact/contact_info';
 import HeaderPage from '../../components/public/header_page';
 
+import ContactHeaderImage from "../../images/bg/blog_header.jpg";
+
 function ContactUs() {
     return (
         <>
@@ -19,7 +21,7 @@ function ContactUs() {
             </Helmet>
             <div>
                 <HeaderPage
-                    Image="./assets/images/bg/blog_header.jpg"
+                    Image={ContactHeaderImage}
                     Title="Contact Us"
                 />
                 <ContactForm />

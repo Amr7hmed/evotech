@@ -8,6 +8,7 @@ import {
   faMobileScreenButton,
   faTextWidth,
 } from "@fortawesome/free-solid-svg-icons";
+import IconImage from "../../images/icon/solid.png";
 
 const ContactSchema = Yup.object().shape({
   name: Yup.string()
@@ -79,7 +80,7 @@ function FormContact() {
 
             <div className="col-12 buttonfield">
               <button type="submit" className="btn">
-                  <img src="./assets/images/icon/solid.png" alt="Submit" />
+                <img src={IconImage} alt="Submit" />
                   Submit
                   </button>
             </div>
