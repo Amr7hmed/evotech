@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/evotech/static/css/main.d2a33459.chunk.css",
-    "main.js": "/evotech/static/js/main.4e24d44b.chunk.js",
-    "main.js.map": "/evotech/static/js/main.4e24d44b.chunk.js.map",
+    "main.js": "/evotech/static/js/main.80dcf825.chunk.js",
+    "main.js.map": "/evotech/static/js/main.80dcf825.chunk.js.map",
     "runtime-main.js": "/evotech/static/js/runtime-main.d7a35ab0.js",
     "runtime-main.js.map": "/evotech/static/js/runtime-main.d7a35ab0.js.map",
     "static/css/2.8c0e6b67.chunk.css": "/evotech/static/css/2.8c0e6b67.chunk.css",
@@ -46,6 +46,6 @@
     "static/css/2.8c0e6b67.chunk.css",
     "static/js/2.c95d47d6.chunk.js",
     "static/css/main.d2a33459.chunk.css",
-    "static/js/main.4e24d44b.chunk.js"
+    "static/js/main.80dcf825.chunk.js"
   ]
 }
