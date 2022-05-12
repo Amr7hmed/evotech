@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -8,8 +8,36 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import LogoFooterImage from "../../images/logo/logo-footer.png";
+import { NavLink } from "react-router-dom";
 
 function FooterLogo() {
+
+  const [isVisible, setIsVisible] = useState(false);
+   // Top: 0 takes us all the way back to the top of the page
+  // Behavior: smooth keeps it smooth!
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    // Button is displayed after scrolling for 500 pixels
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  
   return (
     <div className="footer__logo">
       <img
@@ -20,7 +48,10 @@ function FooterLogo() {
       />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod{" "}
-        <a href="/"> EvoTech </a> ut labore et dolore magna aliqua.
+        <NavLink to={"/evotech"} exact onClick={scrollToTop}>
+          EvoTech
+        </NavLink>{" "}
+        ut labore et dolore magna aliqua.
       </p>
       <div className="socialmedia">
         <a href="#" className="facebook">

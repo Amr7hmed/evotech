@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import SliderBlog from "../../components/home/SliderBlog";
 import SliderHeader from "../../components/home/SliderHeader";
 import SliderProposal from "../../components/home/SliderProposal";
 import SliderServices from "../../components/home/SliderServices";
@@ -27,7 +26,6 @@ function Home() {
           <AboutSection Image={AboutSectionHome} Title="Who are we"/>
           <AboutInformation Styleclass="bg_light"/>
           <SliderServices/>
-          <SliderBlog/>
           <SliderProposal/>
           <TeamSlick/>
           <ClientsSlick/>

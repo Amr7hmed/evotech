@@ -1,16 +1,47 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Imagelogo  from "../../images/logo/logo-header.png";
+import Imagelogo from "../../images/logo/logo-header.png";
 import Imagenavmob from "../../images/icon/navmobile.png";
 
 function NavbarBottom(props) {
   const { handelvisibility } = props;
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  // Top: 0 takes us all the way back to the top of the page
+  // Behavior: smooth keeps it smooth!
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    // Button is displayed after scrolling for 500 pixels
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light navbar__bottom">
       <div className="container">
-        <NavLink className="navbar-brand" to="/evotech" exact>
+        <NavLink
+          className="navbar-brand"
+          to="/evotech"
+          exact
+          onClick={scrollToTop}
+        >
           <img
             src={Imagelogo}
             alt="EvoTech logo"
@@ -36,12 +67,23 @@ function NavbarBottom(props) {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link" aria-current="page" to={"/evotech"} exact>
+              <NavLink
+                className="nav-link"
+                aria-current="page"
+                to={"/evotech"}
+                exact
+                onClick={scrollToTop}
+              >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to={"/about"} exact>
+              <NavLink
+                className="nav-link"
+                to={"/about"}
+                exact
+                onClick={scrollToTop}
+              >
                 About Us
               </NavLink>
             </li>
@@ -58,39 +100,76 @@ function NavbarBottom(props) {
               </a>
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
-                  <NavLink className="dropdown-item" to={"/websolutions"} exact>
+                  <NavLink
+                    className="dropdown-item"
+                    to={"/websolutions"}
+                    exact
+                    onClick={scrollToTop}
+                  >
                     Web Solutions
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to={"/mobileapp"} exact>
+                  <NavLink
+                    className="dropdown-item"
+                    to={"/mobileapp"}
+                    exact
+                    onClick={scrollToTop}
+                  >
                     Mobile App
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to={"/hostingservieces"} exact>
+                  <NavLink
+                    className="dropdown-item"
+                    to={"/hostingservieces"}
+                    exact
+                    onClick={scrollToTop}
+                  >
                     Hosting Servieces
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to={"/development"} exact>
+                  <NavLink
+                    className="dropdown-item"
+                    to={"/development"}
+                    exact
+                    onClick={scrollToTop}
+                  >
                     Development
                   </NavLink>
                 </li>
               </ul>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to={"/blogs"} exact>
+              <NavLink
+                className="nav-link"
+                to={"/blogs"}
+                exact
+                onClick={scrollToTop}
+              >
                 Blog
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to={"/contactus"} exact>
+              <NavLink
+                className="nav-link"
+                to={"/contactus"}
+                exact
+                onClick={scrollToTop}
+              >
                 Contact us
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="btn" to={"/contactus"} exact>GET PROPOSAL</NavLink>
+              <NavLink
+                className="btn"
+                to={"/contactus"}
+                exact
+                onClick={scrollToTop}
+              >
+                GET PROPOSAL
+              </NavLink>
             </li>
           </ul>
         </div>
