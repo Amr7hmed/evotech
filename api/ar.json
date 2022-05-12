@@ -1,0 +1,14 @@
+
+            "servicessectioncards" =>[
+                {
+                    "img" => "servicessectioncardimg",
+                        "servicessectioncards" =>[
+                            "en" => "servicessectioncardstitle",
+                            "ar" => "servicessectioncardstitle"
+                        ],
+                        "servicessectioncardsdescription" =>[
+                            "en" => "servicessectioncardsdescription",
+                            "ar" => "servicessectioncardsdescription"
+                        ],
+                }
+            ],

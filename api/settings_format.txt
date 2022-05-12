@@ -1,0 +1,12 @@
+$settings = [
+            "navbar" => [
+                "navbarhome" => "navbarhome",
+                "navbarservices" => "navbarservices",
+            ],
+
+           "buttons" => [
+                "buttonsreadmore" => "buttonsreadmore",
+                "buttonsgetstarted" => "buttonsgetstarted",
+            ],
+            
+    ];	

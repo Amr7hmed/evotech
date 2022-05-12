@@ -1,0 +1,142 @@
+"staticContent"{
+        "navbar" => [
+            "navbarhome" => [
+                "en" => "navbarhome",
+                "ar" => "navbarhome"
+            ],
+            "navbarservices" => [
+                "en" => "navbarservices",
+                "ar" => "navbarservices"
+            ],
+            "navbarabout" => [
+                "en" => "navbarabout",
+                "ar" => "navbarabout"
+            ],
+            "navbarblog" => [
+                "en" => "navbarblog",
+                "ar" => "navbarblog"
+            ],
+            "navbarcontactus" => [
+                "en" => "navbarcontactus",
+                "ar" => "navbarcontactus"
+            ],
+            "navbarproposal" => [
+                "en" => "navbarproposal",
+                "ar" => "navbarproposal"
+            ],
+        ],
+        "aboutsection" =>[
+            "aboutsectiontitlesub" =>[
+                "en" => "aboutsectiontitlesub",
+                "ar" => "aboutsectiontitlesub"
+            ],
+            "aboutsectiontitle" =>[
+                "en" => "aboutsectiontitle",
+                "ar" => "aboutsectiontitle"
+            ],
+            "aboutsectiondescriptionsub" =>[
+                "en" => "descriptionsub",
+                "ar" => "descriptionsub"
+            ],
+            "aboutsectiondescription" =>[
+                "en" => "aboutsectiondescription",
+                "ar" => "aboutsectiondescription"
+            ],
+            "aboutsectionimg" =>[
+                "img" => "aboutsectionimg",
+            ],
+            "aboutsectionbutton" =>[
+                "en" => "aboutsectionbutton",
+                "ar" => "aboutsectionbutton"
+            ],
+        ],
+        "servicessection" =>[
+            "servicessectiontitlesub" =>[
+                "en" => "servicessectiontitlesub",
+                "ar" => "servicessectiontitlesub"
+            ],
+            "servicessectiontitle" =>[
+                "en" => "servicessectiontitle",
+                "ar" => "servicessectiontitle"
+            ],
+            "servicessectiondescription" =>[
+                "en" => "servicessectiondescription",
+                "ar" => "servicessectiondescription"
+            ],
+
+        ],
+        "proposalsection" =>[
+            "proposalsectiontitlesub" =>[
+                "en" => "proposalsectiontitlesub",
+                "ar" => "proposalsectiontitlesub"
+            ],
+            "proposalsectiontitle" =>[
+                "en" => "proposalsectiontitle",
+                "ar" => "proposalsectiontitle"
+            ],
+            "proposalsectiondescription" =>[
+                "en" => "proposalsectiondescription",
+                "ar" => "proposalsectiondescription"
+            ],
+
+        ],
+        "teamsection" =>[
+            "teamsectiontitlesub" =>[
+                "en" => "teamsectiontitlesub",
+                "ar" => "teamsectiontitlesub"
+            ],
+            "teamsectiontitle" =>[
+                "en" => "teamsectiontitle",
+                "ar" => "teamsectionntitle"
+            ],
+            "teamsectiondescription" =>[
+                "en" => "teamsectiondescription",
+                "ar" => "teamsectiondescription"
+            ],
+
+        ],
+        "cleantssection" =>[
+            "cleantssectiontitlesub" =>[
+                "en" => "cleantssectiontitlesub",
+                "ar" => "cleantssectiontitlesub"
+            ],
+            "cleantssectiontitle" =>[
+                "en" => "cleantssectiontitle",
+                "ar" => "cleantssectiontitle"
+            ],
+            "cleantssectiondescription" =>[
+                "en" => "cleantssectiondescription",
+                "ar" => "cleantssectiondescription"
+            ],
+        ]
+        "footer" => [
+            "footerimg" => "footerimg",
+            "footerdescription" =>[
+                "en" => "footerdescription",
+                "ar" => "footerdescription"
+            ],
+            "footerhome" => [
+                "en" => "footerhome",
+                "ar" => "footerhome"
+            ],
+            "footerabout" => [
+                "en" => "footerabout",
+                "ar" => "footerabout"
+            ],
+            "footerblog" => [
+                "en" => "footerblog",
+                "ar" => "footerblog"
+            ],
+            "footercontactus" => [
+                "en" => "footercontactus",
+                "ar" => "footercontactus"
+            ],
+
+            "footerservices" => [
+                "footerservicestitle" => [
+                    "en" => "footerservicestitle",
+                    "ar" => "footerservicestitle"
+                ],
+            ],
+        ]
+    };	

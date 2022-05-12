@@ -1,0 +1,48 @@
+$staticContent = [
+            "navbar" => [
+                "navbarhome" => [
+                    "en" => "navbarhome",
+                    "ar" => "navbarhome"
+                ],
+                "navbarservices" => [
+                    "en" => "navbarservices",
+                    "ar" => "navbarservices"
+                ],
+                "navbarabout" => [
+                    "en" => "navbarabout",
+                    "ar" => "navbarabout"
+                ],
+                "navbarourclient" => [
+                    "en" => "navbarourclient",
+                    "ar" => "navbarourclient"
+                ],
+                "navbarcontactus" => [
+                    "en" => "navbarcontactus",
+                    "ar" => "navbarcontactus"
+                ],
+            ],
+
+           "buttons" => [
+                "buttonsreadmore" => [
+                    "en" => "buttonsreadmore",
+                    "ar" => "buttonsreadmore"
+                ],
+                "buttonsgetstarted" => [
+                    "en" => "buttonsgetstarted",
+                    "ar" => "buttonsgetstarted"
+                ],
+                "buttonssubscribe" => [
+                    "en" => "buttonssubscribe",
+                    "ar" => "buttonssubscribe"
+                ],
+                "buttonssendmessage" => [
+                    "en" => "buttonssendmessage",
+                    "ar" => "buttonssendmessage"
+                ],
+                "buttonsmore" => [
+                    "en" => "buttonsmore",
+                    "ar" => "buttonsmore"
+                ],
+            ],
+            
+    ];	
