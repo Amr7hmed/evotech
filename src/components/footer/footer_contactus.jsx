@@ -12,14 +12,14 @@ function FooterContactus() {
             <FontAwesomeIcon icon={faLocationDot} />
           </span>
           <span className="text">
-            University Street, 128 Giza Square, Cairo 1367 Egypt
+          10 floor, 53 Corniche El Maadi , Dar El Salam, Giza Governorate
           </span>
         </li>
         <li>
           <span className="icon">
             <FontAwesomeIcon icon={faPhone} />
           </span>
-          <span className="text">Phone : +2 - 877 - 3453 - 3726</span>
+          <span className="text">Phone : 01017866060 / 01006037150</span>
         </li>
         <li>
           <span className="icon">
@@ -34,7 +34,7 @@ function FooterContactus() {
             <FontAwesomeIcon icon={faEnvelope} />
           </span>
           <span className="text">
-          Email : info@evotech.com
+          Email : info@evotech-co.com
           </span>
         </li>
       </ul>

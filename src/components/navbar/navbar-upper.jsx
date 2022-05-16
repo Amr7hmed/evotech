@@ -19,13 +19,13 @@ function NavbarUpper() {
               <span>
                 <FontAwesomeIcon icon={faPhone} />
               </span>
-              <span>+2 40.993.7266</span>
+              <span>01017866060 / 01006037150</span>
             </li>
             <li>
               <span>
                 <FontAwesomeIcon icon={faEnvelope} />
               </span>
-              <span>info@evotech.com</span>
+              <span>info@evotech-co.com</span>
             </li>
           </ul>
           <ul className="right">
