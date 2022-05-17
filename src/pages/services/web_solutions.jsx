@@ -9,7 +9,7 @@ import ServesHeaderImage from "../../images/bg/serves_header.jpg";
 import ServesAboutImage from "../../images/public/about__section__about.png";
 
 // ./assets/images/bg/serves_header.jpg
-function WebSolutions() {
+function Services() {
   return (
     <>
       <Helmet>
@@ -41,4 +41,4 @@ function WebSolutions() {
   );
 }
 
-export default WebSolutions;
+export default Services;

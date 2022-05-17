@@ -87,60 +87,18 @@ function NavbarBottom(props) {
                 About Us
               </NavLink>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+            
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to={"/services"}
+                exact
+                onClick={scrollToTop}
               >
-                our services
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to={"/websolutions"}
-                    exact
-                    onClick={scrollToTop}
-                  >
-                    Web Solutions
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to={"/mobileapp"}
-                    exact
-                    onClick={scrollToTop}
-                  >
-                    Mobile App
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to={"/hostingservieces"}
-                    exact
-                    onClick={scrollToTop}
-                  >
-                    Hosting Servieces
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to={"/development"}
-                    exact
-                    onClick={scrollToTop}
-                  >
-                    Development
-                  </NavLink>
-                </li>
-              </ul>
+                Our Services
+              </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
                 className="nav-link"

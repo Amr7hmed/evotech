@@ -63,67 +63,49 @@ export default class ServicesSlick extends Component {
     return (
       <div className="slider__services__slick">
         <Slider {...settings}>
+
           <div className="slider__services__slick__item">
             <div className="icon">
               <img
                 src={WebLight}
-                alt="web design"
+                alt="Web Applications"
                 width={"88px"}
                 height={"53px"}
                 className="img_light"
               />
               <img
                 src={WebPrimary}
-                alt="web design"
+                alt="Web Applications"
                 width={"88px"}
                 height={"53px"}
                 className="img_primary"
               />
             </div>
-            <h4>web design </h4>
+            <h4>Web Applications</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
-          <div className="slider__services__slick__item">
-            <div className="icon">
-              <img
-                src={DevelLight}
-                alt="Development"
-                width={"88px"}
-                height={"53px"}
-                className="img_light"
-              />
-              <img
-                src={DevelPrimary}
-                alt="web design"
-                width={"88px"}
-                height={"53px"}
-                className="img_primary"
-              />
 
-            </div>
-              <h4>Development</h4>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
-          </div>
           <div className="slider__services__slick__item">
             <div className="icon">
               <img
                 src={MobileLight}
-                alt="Mobile App"
+                alt="Domain & Hosting"
                 width={"88px"}
                 height={"53px"}
                 className="img_light"
               />
               <img
                 src={MobilePrimary}
-                alt="web design"
+                alt="Domain & Hosting"
                 width={"88px"}
                 height={"53px"}
                 className="img_primary"
               />
             </div>
-            <h4>Mobile App</h4>
+            <h4>Domain & Hosting</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
+
           <div className="slider__services__slick__item">
             <div className="icon">
               <img
@@ -135,7 +117,7 @@ export default class ServicesSlick extends Component {
               />
               <img
                 src={HostingPrimary}
-                alt="web design"
+                alt="Hosting Services"
                 width={"88px"}
                 height={"53px"}
                 className="img_primary"
@@ -145,86 +127,73 @@ export default class ServicesSlick extends Component {
             <h4>Hosting Services</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
-          <div className="slider__services__slick__item">
-            <div className="icon">
-              <img
-                src={WebLight}
-                alt="web design"
-                width={"88px"}
-                height={"53px"}
-                className="img_light"
-              />
-              <img
-                src={WebPrimary}
-                alt="web design"
-                width={"88px"}
-                height={"53px"}
-                className="img_primary"
-              />
-            </div>
-            <h4>web design </h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
-          </div>
-          <div className="slider__services__slick__item">
-            <div className="icon">
-              <img
-                src={DevelLight}
-                alt="Development"
-                width={"88px"}
-                height={"53px"}
-                className="img_light"
-              />
-              <img
-                src={DevelPrimary}
-                alt="web design"
-                width={"88px"}
-                height={"53px"}
-                className="img_primary"
-              />
-
-            </div>
-              <h4>Development</h4>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
-          </div>
-          <div className="slider__services__slick__item">
-            <div className="icon">
-              <img
-                src={MobileLight}
-                alt="Mobile App"
-                width={"88px"}
-                height={"53px"}
-                className="img_light"
-              />
-              <img
-                src={MobilePrimary}
-                alt="web design"
-                width={"88px"}
-                height={"53px"}
-                className="img_primary"
-              />
-            </div>
-            <h4>Mobile App</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
-          </div>
+          
           <div className="slider__services__slick__item">
             <div className="icon">
               <img
                 src={HostingLight}
-                alt="Hosting Services"
+                alt="Coding & Design"
                 width={"88px"}
                 height={"53px"}
                 className="img_light"
               />
               <img
                 src={HostingPrimary}
-                alt="web design"
+                alt="Coding & Design"
                 width={"88px"}
                 height={"53px"}
                 className="img_primary"
               />
 
             </div>
-            <h4>Hosting Services</h4>
+            <h4>Coding & Design</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+          </div>
+
+          <div className="slider__services__slick__item">
+            <div className="icon">
+              <img
+                src={HostingLight}
+                alt="E-Commerce Store Design"
+                width={"88px"}
+                height={"53px"}
+                className="img_light"
+              />
+              <img
+                src={HostingPrimary}
+                alt="E-Commerce Store Design"
+                width={"88px"}
+                height={"53px"}
+                className="img_primary"
+              />
+
+            </div>
+            <h4>E-Commerce Store Design</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+          </div>
+
+          
+
+
+          <div className="slider__services__slick__item">
+            <div className="icon">
+              <img
+                src={HostingLight}
+                alt="Consultant"
+                width={"88px"}
+                height={"53px"}
+                className="img_light"
+              />
+              <img
+                src={HostingPrimary}
+                alt="Consultant"
+                width={"88px"}
+                height={"53px"}
+                className="img_primary"
+              />
+
+            </div>
+            <h4>Consultant</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
           

@@ -6,7 +6,7 @@ function ButtonsWhatsapp() {
   return (
     <section className="buttonswhatsapp">
       <ReactWhatsapp
-        number="+201017866060"
+        number="+201006037150"
         message="Hello !"
         className="btn"
       >
