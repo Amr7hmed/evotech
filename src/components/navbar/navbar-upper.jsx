@@ -5,9 +5,9 @@ import {
   faFacebookF,
   faYoutube,
   faInstagram,
-  faGooglePlusG,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import Imagelogo from "../../images/icon/langth.png";
+// import Imagelogo from "../../images/icon/langth.png";
 
 function NavbarUpper() {
   return (
@@ -30,31 +30,33 @@ function NavbarUpper() {
           </ul>
           <ul className="right">
             <li>
-              <span>
+              <a href="https://www.facebook.com/Evotech-Software-company-108686995082581/?ref=pages_you_manage" target={"_blank;"}>
                 <FontAwesomeIcon icon={faFacebookF} />
-              </span>
+              </a>
             </li>
             <li>
-              <span>
+              <a href="https://www.youtube.com/channel/UCRa9DRXFiQ6qmku6nYUqsLg" target={"_blank;"}>
                 <FontAwesomeIcon icon={faYoutube} />
-              </span>
+              </a>
             </li>
             <li>
-              <span>
-                <FontAwesomeIcon icon={faGooglePlusG} />
-              </span>
+              <a href="https://www.linkedin.com/company/evotechco-software-company/" target={"_blank;"}>
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
             </li>
             <li>
-              <span>
+              <a href="https://www.instagram.com/accounts/login/?next=/evotechsoftware/" target={"_blank;"}>
                 <FontAwesomeIcon icon={faInstagram} />
-              </span>
+              </a>
             </li>
+            {/*
             <li className="lan">
               <span>
               <img src={Imagelogo} alt="langth" width={"28px"} height={"30px"} />
               <span className="text">Ar</span>
               </span>
             </li>
+            */}
           </ul>
         </div>
       </div>

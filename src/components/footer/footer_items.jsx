@@ -7,16 +7,20 @@ function FooterItems() {
   return (
     <div className="footer__items">
       <div className="row">
-              <div className="col-md-12 col-lg-4">
-                  <FooterMainpages/>
-              </div>
+        <div className="col-md-12 col-lg-6">
+          <FooterMainpages />
+        </div>
+        {/*
+
+
               <div className="col-md-12 col-lg-4">
                   <FooterServices/>
               </div>
-              <div className="col-md-12 col-lg-4">
-                  <FooterContactus/>
-              </div>
+*/}
+        <div className="col-md-12 col-lg-6">
+          <FooterContactus />
         </div>
+      </div>
     </div>
   );
 }

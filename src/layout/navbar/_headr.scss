@@ -54,11 +54,12 @@
           height: 100%;
           width: 50px;
           text-align: center;
-          span {
+          a {
             display: inline-block;
             height: 18px;
             width: 10px;
             margin: 10px auto;
+            color: white;
           }
         }
         li.lan {

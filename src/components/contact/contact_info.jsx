@@ -8,8 +8,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
+  faInstagram,
   faLinkedinIn,
-  faTwitter,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 function ContactInfo() {
@@ -47,22 +48,33 @@ function ContactInfo() {
           </li>
         </ul>
         <div className="socialmedia">
-          <a href="#" className="facebook">
+          <a
+            href="https://www.facebook.com/Evotech-Software-company-108686995082581/?ref=pages_you_manage"
+            target={"_blank;"}
+          >
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a href="#" className="twitter">
-            <FontAwesomeIcon icon={faTwitter} />
+          <a
+            href="https://www.instagram.com/accounts/login/?next=/evotechsoftware/"
+            target={"_blank;"}
+          >
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a href="#" className="linkedin">
+          <a
+            href="https://www.linkedin.com/company/evotechco-software-company/"
+            target={"_blank;"}
+          >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
-          <a href="#" className="envelope">
-            <FontAwesomeIcon icon={faEnvelope} />
+          <a
+            href="https://www.youtube.com/channel/UCRa9DRXFiQ6qmku6nYUqsLg"
+            target={"_blank;"}
+          >
+            <FontAwesomeIcon icon={faYoutube} />
           </a>
         </div>
       </div>
       <div className="right">
-
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.8899193557255!2d31.229926528261174!3d29.98761277386355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584789cc2bdd83%3A0x14d84ce00227713!2sOngoing!5e0!3m2!1sar!2seg!4v1650356669800!5m2!1sar!2seg"
           width="100%"

@@ -27,7 +27,9 @@ function Home() {
           <AboutInformation Styleclass="bg_light"/>
           <SliderServices/>
           <SliderProposal/>
+          {/*
           <TeamSlick/>
+          */}
           <ClientsSlick/>
       </div>
     </>

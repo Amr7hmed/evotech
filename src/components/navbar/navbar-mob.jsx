@@ -39,66 +39,41 @@ function NavbarMenu(props) {
               <span className="item">About Us</span>
             </NavLink>
           </li>
+
           <li className="navbarmenu__item">
-            <div className="navbarmenu__link">
+            <NavLink
+              className="navbarmenu__link"
+              to={"/services"}
+              exact
+              onClick={hidevisibility}
+            >
               <span className="icon">
                 <FontAwesomeIcon icon={faChevronRight} />
                 <FontAwesomeIcon icon={faChevronRight} />
               </span>
-              <a
-                className="item"
-                data-bs-toggle="collapse"
-                href="#collapseExample"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                our services
-              </a>
-              <ul class="collapse" id="collapseExample">
-                <li>
-                  <NavLink
-                    className="navbarmenu__drowpmenue websolutions"
-                    to={"/websolutions"}
-                    exact
-                    onClick={hidevisibility}
-                  >
-                    Web Solutions
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className="navbarmenu__drowpmenue"
-                    to={".."}
-                    exact
-                    onClick={hidevisibility}
-                  >
-                    Mobile App
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className="navbarmenu__drowpmenue"
-                    to={".."}
-                    exact
-                    onClick={hidevisibility}
-                  >
-                    Hosting Servieces
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className="navbarmenu__drowpmenue"
-                    to={".."}
-                    exact
-                    onClick={hidevisibility}
-                  >
-                    Development
-                  </NavLink>
-                </li>
-              </ul>
-            </div>
+              <span className="item">Services</span>
+            </NavLink>
           </li>
+
+          {/*
+          <li className="navbarmenu__item">
+            <NavLink
+              className="navbarmenu__link"
+              to={"/blogs"}
+              exact
+              onClick={hidevisibility}
+            >
+              <span className="icon">
+                <FontAwesomeIcon icon={faChevronRight} />
+                <FontAwesomeIcon icon={faChevronRight} />
+              </span>
+              <span className="item">
+              Blogs</span>
+            </NavLink>
+          </li>
+          
+          */}
+
           <li className="navbarmenu__item">
             <NavLink
               className="navbarmenu__link"

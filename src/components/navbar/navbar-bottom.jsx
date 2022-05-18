@@ -95,9 +95,10 @@ function NavbarBottom(props) {
                 exact
                 onClick={scrollToTop}
               >
-                Our Services
+                Services
               </NavLink>
             </li>
+{/*
 
             <li className="nav-item">
               <NavLink
@@ -106,9 +107,10 @@ function NavbarBottom(props) {
                 exact
                 onClick={scrollToTop}
               >
-                Blog
+                Blogs
               </NavLink>
             </li>
+*/}
             <li className="nav-item">
               <NavLink
                 className="nav-link"

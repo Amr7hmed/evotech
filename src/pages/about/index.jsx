@@ -28,7 +28,9 @@ function Aboutus() {
       <AboutSection Styleclass="hidebutton" Image={AboutSectionImg} Title="Who are we"/>
       <AboutVision/>
       <AboutInformation Styleclass="bg_primary"/>
+      {/*
       <TeamSlick/>
+      */}
       <ClientsSlick/>
       </div>
     </>

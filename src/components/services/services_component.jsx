@@ -1,19 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import webdesign from "../../images/services/webdesign.jpg";
-function ServicesComponent() {
+function ServicesComponent(props) {
+  const { Title,Image ,styleclass} = props;
   return (
     <section className="services__component">
       <div className="container">
-        <div className="title">
-          <h3>Web Design</h3>
-        </div>
-
-        <div className="row">
-          <div className="img col-md-12 col-xl-6">
-            <img src={webdesign} alt="web design" />
+        <div className={"row " + styleclass}>
+          <div className="img col-md-12 col-xl-5">
+            <img src={Image} alt="web design" />
           </div>
-          <div className="document col-md-12 col-xl-6">
+          <div className="document col-md-12 col-xl-7">
+            <div className="title">
+              <h3>{Title}</h3>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium ad eveniet eaque optio dolores voluptatum quis
@@ -23,12 +22,11 @@ function ServicesComponent() {
               reiciendis optio inventore velit culpa? Nulla minus commodi
               laudantium numquam
             </p>
-<div className="button">
-            <NavLink className="btn" to={"/contactus"} exact>
-              Contact us
-            </NavLink>
-
-</div>
+            <div className="button">
+              <NavLink className="btn" to={"/contactus"} exact>
+                Contact us
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>

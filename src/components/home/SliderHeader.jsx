@@ -1,9 +1,9 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
 import Imgone from "../../images/bg/home_bg_one.jpg";
 import Imgtwo from "../../images/bg/home_bg_two.png";
 import Imgthree from "../../images/bg/home_bg_three.png";
-
-
 
 function SliderHeader() {
   return (
@@ -34,51 +34,75 @@ function SliderHeader() {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="6"
+            aria-label="Slide 7"
+          ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="overload"></div>
-            <img
-              src={Imgone}
-              className="d-block w-100"
-              alt="Home Background"
-            />
+            <img src={Imgone} className="d-block w-100" alt="Home Background" />
 
             <div className="contaner_item">
               <p>Evolution Technology</p>
-              <h1>Web Solutions</h1>
+              <h1>Web Development</h1>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam.
               </p>
               <div className="contaner_button">
-                <button className="btn">Join us NOW</button>
+                <NavLink className="btn" to={"/services"} exact>
+                  Join us NOW
+                </NavLink>
               </div>
             </div>
           </div>
+
           <div className="carousel-item">
             <div className="overload"></div>
-            <img
-              src={Imgtwo}
-              className="d-block w-100"
-              alt="Home Background"
-            />
+            <img src={Imgtwo} className="d-block w-100" alt="Home Background" />
 
             <div className="contaner_item">
               <p>Evolution Technology</p>
-              <h4>Web Solutions</h4>
+              <h4>Web Design (UI / UX)</h4>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam.
               </p>
               <div className="contaner_button">
-                <button className="btn">Join us NOW</button>
+                <NavLink className="btn" to={"/services"} exact>
+                  Join us NOW
+                </NavLink>
               </div>
             </div>
-
           </div>
+
           <div className="carousel-item">
             <div className="overload"></div>
             <img
@@ -86,20 +110,117 @@ function SliderHeader() {
               className="d-block w-100"
               alt="Home Background"
             />
-            
+
             <div className="contaner_item">
               <p>Evolution Technology</p>
-              <h4>Web Solutions</h4>
+              <h4>Web Management</h4>
               <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam.
               </p>
               <div className="contaner_button">
-                <button className="btn">Join us NOW</button>
+                <NavLink className="btn" to={"/services"} exact>
+                  Join us NOW
+                </NavLink>
               </div>
             </div>
+          </div>
 
+          <div className="carousel-item">
+            <div className="overload"></div>
+            <img
+              src={Imgthree}
+              className="d-block w-100"
+              alt="Home Background"
+            />
+
+            <div className="contaner_item">
+              <p>Evolution Technology</p>
+              <h4>Domain & Hosting</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam.
+              </p>
+              <div className="contaner_button">
+                <NavLink className="btn" to={"/services"} exact>
+                  Join us NOW
+                </NavLink>
+              </div>
+            </div>
+          </div>
+
+          <div className="carousel-item">
+            <div className="overload"></div>
+            <img
+              src={Imgthree}
+              className="d-block w-100"
+              alt="Home Background"
+            />
+
+            <div className="contaner_item">
+              <p>Evolution Technology</p>
+              <h4>Mobile Application</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam.
+              </p>
+              <div className="contaner_button">
+                <NavLink className="btn" to={"/services"} exact>
+                  Join us NOW
+                </NavLink>
+              </div>
+            </div>
+          </div>
+
+          <div className="carousel-item">
+            <div className="overload"></div>
+            <img
+              src={Imgthree}
+              className="d-block w-100"
+              alt="Home Background"
+            />
+
+            <div className="contaner_item">
+              <p>Evolution Technology</p>
+              <h4>E-commerce Website</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam.
+              </p>
+              <div className="contaner_button">
+                <NavLink className="btn" to={"/services"} exact>
+                  Join us NOW
+                </NavLink>
+              </div>
+            </div>
+          </div>
+
+          <div className="carousel-item">
+            <div className="overload"></div>
+            <img
+              src={Imgthree}
+              className="d-block w-100"
+              alt="Home Background"
+            />
+
+            <div className="contaner_item">
+              <p>Evolution Technology</p>
+              <h4>Software Consulting</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam.
+              </p>
+              <div className="contaner_button">
+                <NavLink className="btn" to={"/services"} exact>
+                  Join us NOW
+                </NavLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>
