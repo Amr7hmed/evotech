@@ -71,9 +71,9 @@ function SliderHeader() {
               <p>Evolution Technology</p>
               <h1>Web Development</h1>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam.
+                Programming and website development is one of the most
+                productive methods that make your website an honorable interface
+                for your company's business and services
               </p>
               <div className="contaner_button">
                 <NavLink className="btn" to={"/services"} exact>
@@ -91,9 +91,8 @@ function SliderHeader() {
               <p>Evolution Technology</p>
               <h4>Web Design (UI / UX)</h4>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam.
+                Website design it saves the company time and money. And, it
+                allows the company flexibility to communicate with
               </p>
               <div className="contaner_button">
                 <NavLink className="btn" to={"/services"} exact>
@@ -115,9 +114,9 @@ function SliderHeader() {
               <p>Evolution Technology</p>
               <h4>Web Management</h4>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam.
+                It Makes necessary updates to content, images, and information
+                about products or services. It also creates or deletes email or
+                address data.
               </p>
               <div className="contaner_button">
                 <NavLink className="btn" to={"/services"} exact>
@@ -139,9 +138,8 @@ function SliderHeader() {
               <p>Evolution Technology</p>
               <h4>Domain & Hosting</h4>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam.
+                Domain services and managed web hosting services help websites
+                attract several customers in a short period.
               </p>
               <div className="contaner_button">
                 <NavLink className="btn" to={"/services"} exact>
@@ -163,9 +161,8 @@ function SliderHeader() {
               <p>Evolution Technology</p>
               <h4>Mobile Application</h4>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam.
+                Mobile applications are the means to ensure that you can reach
+                any customer anywhere.
               </p>
               <div className="contaner_button">
                 <NavLink className="btn" to={"/services"} exact>
@@ -187,9 +184,8 @@ function SliderHeader() {
               <p>Evolution Technology</p>
               <h4>E-commerce Website</h4>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam.
+                Online stores have become the most efficient electronic means of
+                promoting any service or product.
               </p>
               <div className="contaner_button">
                 <NavLink className="btn" to={"/services"} exact>
@@ -211,9 +207,8 @@ function SliderHeader() {
               <p>Evolution Technology</p>
               <h4>Software Consulting</h4>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam.
+                Determining the starting point is a measure of success for any
+                company.
               </p>
               <div className="contaner_button">
                 <NavLink className="btn" to={"/services"} exact>

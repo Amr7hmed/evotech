@@ -52,12 +52,12 @@ function FooterMainpages() {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/blogs"} exact onClick={scrollToTop}>
+          <NavLink to={"/services"} exact onClick={scrollToTop}>
             <span className="icon">
               <FontAwesomeIcon aria-hidden="true" icon={faChevronRight} />
               <FontAwesomeIcon aria-hidden="true" icon={faChevronRight} />
             </span>
-            <span className="item">Blog</span>
+            <span className="item">Services</span>
           </NavLink>
         </li>
         <li>

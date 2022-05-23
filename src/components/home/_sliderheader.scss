@@ -91,15 +91,21 @@
       .carousel-item {
         .contaner_item {
           background-color: transparent;
-          width: 80%;
+          width: 95%;
           text-align: center;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
           p {
+            font-size: 16px;
             &:last-of-type {
               display: none;
             }
+          }
+          h1,h4 {
+            font-size: 34px;
+            font-weight: bold;
+            font-family: $fontmontserrat;
           }
           .contaner_button {
             text-align: center;

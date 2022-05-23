@@ -16,8 +16,8 @@ export default class ServicesSlick extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: 3,
+      slidesToScroll: 3,
       autoplay: true,
       speed: 500,
       arrows:false,
@@ -82,7 +82,6 @@ export default class ServicesSlick extends Component {
               />
             </div>
             <h4>Web Development</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
 
           <div className="slider__services__slick__item">
@@ -103,7 +102,6 @@ export default class ServicesSlick extends Component {
               />
             </div>
             <h4>Domain & Hosting</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
 
           <div className="slider__services__slick__item">
@@ -125,7 +123,6 @@ export default class ServicesSlick extends Component {
 
             </div>
             <h4>Web design (UI / UX)</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
           
           <div className="slider__services__slick__item">
@@ -147,7 +144,6 @@ export default class ServicesSlick extends Component {
 
             </div>
             <h4>Web Management & Maintenance</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
 
 
@@ -171,7 +167,6 @@ export default class ServicesSlick extends Component {
 
             </div>
             <h4>Mobile Application Developer</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
 
 
@@ -195,7 +190,6 @@ export default class ServicesSlick extends Component {
 
             </div>
             <h4>E-Commerce Website Design</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
 
           
@@ -220,7 +214,6 @@ export default class ServicesSlick extends Component {
 
             </div>
             <h4>Software Consulting</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
           </div>
           
         </Slider>

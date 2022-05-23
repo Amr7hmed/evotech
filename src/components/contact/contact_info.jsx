@@ -24,8 +24,9 @@ function ContactInfo() {
               <FontAwesomeIcon icon={faLocationDot} />
             </span>
             <span className="text">
-              University Street, 128 Giza Square,
-              <br /> Cairo 1367 Egypt
+            10 floor, 53 Corniche El Maadi , 
+            <br /> 
+            Dar El Salam, Giza Governorate
             </span>
           </li>
           <li>
@@ -34,12 +35,7 @@ function ContactInfo() {
             </span>
             <span className="text">Phone : +2 - 877 - 3453 - 3726</span>
           </li>
-          <li>
-            <span className="icon">
-              <FontAwesomeIcon icon={faFax} />
-            </span>
-            <span className="text">FAX : +2 - 877 - 2341 - 1283</span>
-          </li>
+          
           <li>
             <span className="icon">
               <FontAwesomeIcon icon={faEnvelope} />

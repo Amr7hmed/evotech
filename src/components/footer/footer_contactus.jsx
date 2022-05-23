@@ -23,14 +23,6 @@ function FooterContactus() {
         </li>
         <li>
           <span className="icon">
-            <FontAwesomeIcon icon={faFax} />
-          </span>
-          <span className="text">
-          FAX : +2 - 877 - 2341 - 1283
-          </span>
-        </li>
-        <li>
-          <span className="icon">
             <FontAwesomeIcon icon={faEnvelope} />
           </span>
           <span className="text">
