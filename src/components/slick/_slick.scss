@@ -150,14 +150,17 @@
     justify-content: center;
     align-items: center;
     div.img{
-      width: 229px;
-      height: 112px;
+      width: 220px;
+      height: 130px;
       margin: 0 auto;
-      line-height: 112px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
     }
     img.img{
-      height: auto;
-      max-width: 100%;
+      width: 220px;
+      height: 100px;
       display: inline-block;
     }
   }

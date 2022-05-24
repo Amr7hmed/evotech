@@ -8,7 +8,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import LogoFooterImage from "../../images/logo/logo-footer.png";
+import LogoFooterImage from "../../images/logo/logo-footer.svg";
 import { NavLink } from "react-router-dom";
 
 function FooterLogo() {
@@ -42,15 +42,16 @@ function FooterLogo() {
       <img
         src={LogoFooterImage}
         alt="EvoTech logo"
-        width={"204px"}
-        height={"137px"}
+        width={"290px"}
+        height={"140px"}
       />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod{" "}
         <NavLink to={"/evotech"} exact onClick={scrollToTop}>
-          EvoTech
+        Evotechnology software 
         </NavLink>{" "}
-        ut labore et dolore magna aliqua.
+        development company. We provide advanced
+        solutions to help businesses enter the world of digital transformation
+        professionally and ensure they achieve their goals.
       </p>
       <div className="socialmedia">
         <a

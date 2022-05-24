@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Imagelogo from "../../images/logo/logo-header.png";
+import Imagelogo from "../../images/logo/logo-header.svg";
 import Imagenavmob from "../../images/icon/navmobile.png";
 
 function NavbarBottom(props) {

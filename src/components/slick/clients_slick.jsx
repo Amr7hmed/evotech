@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import ImageClentOne from "../../images/clients/img_one.png";
 import ImageClentTwo from "../../images/clients/img_two.png";
-import ImageClentThree from "../../images/clients/img_three.png";
+import ImageClentThree from "../../images/clients/tbslogo.svg";
 import ImageClentFour from "../../images/clients/img_four.png";
 import ImageClentFive from "../../images/clients/img_five.png";
 
