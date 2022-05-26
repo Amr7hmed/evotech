@@ -6,8 +6,10 @@ function ServicesComponent(props) {
     <section className="services__component">
       <div className="container">
         <div className={"row " + styleclass}>
-          <div className="img col-md-12 col-xl-5">
+          <div className="img_contener col-md-12 col-xl-5">
+            <div className="img">
             <img src={Image} alt="web design" />
+            </div>
           </div>
           <div className="document col-md-12 col-xl-7">
             <div className="title">

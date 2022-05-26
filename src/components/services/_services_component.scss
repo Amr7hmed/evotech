@@ -33,6 +33,7 @@
       text-align: center;
       order: 1;
       height: 400px;
+      width: 100%;
       img {
         width: 90%;
         border-radius: 10px;
@@ -70,7 +71,7 @@
 }
 
 .left {
-  .img {
+  .img_contener {
     order: 1;
   }
   .document {
@@ -79,7 +80,7 @@
 }
 
 .right {
-  .img {
+  .img_contener {
     order: 2;
   }
   .document {

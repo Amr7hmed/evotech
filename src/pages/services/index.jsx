@@ -6,12 +6,12 @@ import ServesHeaderImage from "../../images/bg/serves_header.jpg";
 
 // Images Services Component
 import webdesign from "../../images/services/webdesign.jpg";
-import webdevelopment from "../../images/services/web-development.png";
+import webdevelopment from "../../images/services/web-development.jpg";
 import webmanagement from "../../images/services/website-management.jpg";
 import domainhosting from "../../images/services/domainhosting.jpg";
 import mobileapplication from "../../images/services/mobileapplication.jpg";
 import ecommerce from "../../images/services/e-commerce.jpg";
-import consulting from "../../images/services/softwareconsulting.png";
+import consulting from "../../images/services/softwareconsulting.jpg";
 
 // ./assets/images/bg/serves_header.jpg
 function Services() {
