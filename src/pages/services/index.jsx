@@ -6,12 +6,12 @@ import ServesHeaderImage from "../../images/bg/serves_header.jpeg";
 
 // Images Services Component
 import webdesign from "../../images/services/webdesign.png";
-import webdevelopment from "../../images/services/web-development.jpg";
-import webmanagement from "../../images/services/website-management.jpg";
-import domainhosting from "../../images/services/domainhosting.jpg";
-import mobileapplication from "../../images/services/mobileapplication.jpg";
+import webdevelopment from "../../images/services/web-development.png";
+import webmanagement from "../../images/services/website-management.png";
+import domainhosting from "../../images/services/domainhosting.png";
+import mobileapplication from "../../images/services/mobileapplication.png";
 import ecommerce from "../../images/services/e-commerce.png";
-import consulting from "../../images/services/softwareconsulting.jpg";
+import consulting from "../../images/services/softwareconsulting.png";
 
 // ./assets/images/bg/serves_header.jpg
 function Services() {
@@ -82,7 +82,7 @@ function Services() {
         <ServicesComponent
           Image={mobileapplication}
           styleclass={"left"}
-          Title="Mobile Application Developer"
+          Title="Mobile Application"
           description={`Mobile applications are the means to ensure that you can reach any customer anywhere. 
           It also helps you update and add the products and services you want.
           In addition, it limits the distance between you and customers and makes your company an open book to any clients. 
