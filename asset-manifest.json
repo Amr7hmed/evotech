@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/evotech/static/css/main.b3d9b3ce.chunk.css",
-    "main.js": "/evotech/static/js/main.f03c8c15.chunk.js",
-    "main.js.map": "/evotech/static/js/main.f03c8c15.chunk.js.map",
+    "main.css": "/evotech/static/css/main.8aeef125.chunk.css",
+    "main.js": "/evotech/static/js/main.64bc6f03.chunk.js",
+    "main.js.map": "/evotech/static/js/main.64bc6f03.chunk.js.map",
     "runtime-main.js": "/evotech/static/js/runtime-main.d7a35ab0.js",
     "runtime-main.js.map": "/evotech/static/js/runtime-main.d7a35ab0.js.map",
     "static/css/2.8c0e6b67.chunk.css": "/evotech/static/css/2.8c0e6b67.chunk.css",
@@ -12,15 +12,15 @@
     "static/js/3.28fb5f1f.chunk.js.map": "/evotech/static/js/3.28fb5f1f.chunk.js.map",
     "index.html": "/evotech/index.html",
     "static/css/2.8c0e6b67.chunk.css.map": "/evotech/static/css/2.8c0e6b67.chunk.css.map",
-    "static/css/main.b3d9b3ce.chunk.css.map": "/evotech/static/css/main.b3d9b3ce.chunk.css.map",
+    "static/css/main.8aeef125.chunk.css.map": "/evotech/static/css/main.8aeef125.chunk.css.map",
     "static/js/2.8c69bfa7.chunk.js.LICENSE.txt": "/evotech/static/js/2.8c69bfa7.chunk.js.LICENSE.txt",
     "static/media/about__section__about.f21d04e9.png": "/evotech/static/media/about__section__about.f21d04e9.png",
     "static/media/about__section__home.bc8edd20.png": "/evotech/static/media/about__section__home.bc8edd20.png",
     "static/media/about_header.c77ddfe3.jpg": "/evotech/static/media/about_header.c77ddfe3.jpg",
     "static/media/blog_header.7eb8162d.jpg": "/evotech/static/media/blog_header.7eb8162d.jpg",
     "static/media/blogslick.f7fe667b.png": "/evotech/static/media/blogslick.f7fe667b.png",
-    "static/media/domainhosting.d3c65f21.jpg": "/evotech/static/media/domainhosting.d3c65f21.jpg",
-    "static/media/e-commerce.ab8104a9.jpg": "/evotech/static/media/e-commerce.ab8104a9.jpg",
+    "static/media/domainhosting.8514a91a.png": "/evotech/static/media/domainhosting.8514a91a.png",
+    "static/media/e-commerce.39f7bdb1.png": "/evotech/static/media/e-commerce.39f7bdb1.png",
     "static/media/main.scss": "/evotech/static/media/services_slider_home.e24def9b.jpg",
     "static/media/home_bg_one.51ae32f1.jpg": "/evotech/static/media/home_bg_one.51ae32f1.jpg",
     "static/media/home_bg_three.3a3f2fb9.png": "/evotech/static/media/home_bg_three.3a3f2fb9.png",
@@ -36,19 +36,19 @@
     "static/media/man_one.551c0fb9.png": "/evotech/static/media/man_one.551c0fb9.png",
     "static/media/man_three.840176d1.png": "/evotech/static/media/man_three.840176d1.png",
     "static/media/man_two.cfde2331.png": "/evotech/static/media/man_two.cfde2331.png",
-    "static/media/mobileapplication.35e35f81.jpg": "/evotech/static/media/mobileapplication.35e35f81.jpg",
-    "static/media/serves_header.369cb561.jpg": "/evotech/static/media/serves_header.369cb561.jpg",
-    "static/media/softwareconsulting.16c05a2e.jpg": "/evotech/static/media/softwareconsulting.16c05a2e.jpg",
+    "static/media/mobileapplication.c9035f95.png": "/evotech/static/media/mobileapplication.c9035f95.png",
+    "static/media/serves_header.aad70fbc.jpeg": "/evotech/static/media/serves_header.aad70fbc.jpeg",
+    "static/media/softwareconsulting.5816d3fd.png": "/evotech/static/media/softwareconsulting.5816d3fd.png",
     "static/media/tbslogo.94c76b9b.svg": "/evotech/static/media/tbslogo.94c76b9b.svg",
-    "static/media/web-development.79409ba6.jpg": "/evotech/static/media/web-development.79409ba6.jpg",
-    "static/media/webdesign.da34aaeb.jpg": "/evotech/static/media/webdesign.da34aaeb.jpg",
-    "static/media/website-management.25221cc0.jpg": "/evotech/static/media/website-management.25221cc0.jpg"
+    "static/media/web-development.986f4238.png": "/evotech/static/media/web-development.986f4238.png",
+    "static/media/webdesign.1686e89b.png": "/evotech/static/media/webdesign.1686e89b.png",
+    "static/media/website-management.935a29d3.png": "/evotech/static/media/website-management.935a29d3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d7a35ab0.js",
     "static/css/2.8c0e6b67.chunk.css",
     "static/js/2.8c69bfa7.chunk.js",
-    "static/css/main.b3d9b3ce.chunk.css",
-    "static/js/main.f03c8c15.chunk.js"
+    "static/css/main.8aeef125.chunk.css",
+    "static/js/main.64bc6f03.chunk.js"
   ]
 }
