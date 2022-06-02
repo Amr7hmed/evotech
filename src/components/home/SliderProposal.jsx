@@ -1,6 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function SliderProposal() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  // Top: 0 takes us all the way back to the top of the page
+  // Behavior: smooth keeps it smooth!
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    // Button is displayed after scrolling for 500 pixels
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+  
   return (
     <section className="slider__proposal">
       <div className="overload"></div>
@@ -14,7 +41,15 @@ function SliderProposal() {
               Personally
             </p>
           </div>
-          <button className="btn">GET PROPOSAL</button>
+          
+          <NavLink
+                className="btn"
+                to={"/contactus"}
+                exact
+                onClick={scrollToTop}
+              >
+                GET PROPOSAL
+              </NavLink>
         </div>
       </div>
     </section>

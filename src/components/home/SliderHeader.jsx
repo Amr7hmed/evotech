@@ -76,8 +76,8 @@ function SliderHeader() {
                 for your company's business and services
               </p>
               <div className="contaner_button">
-                <NavLink className="btn" to={"/services"} exact>
-                  Join us NOW
+                <NavLink className="btn" to={"/contactus"} exact>
+                  Join Us Now
                 </NavLink>
               </div>
             </div>

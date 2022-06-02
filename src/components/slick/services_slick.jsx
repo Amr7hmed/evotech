@@ -6,8 +6,6 @@ import MobileLight from "../../images/icon/services/mobile_light.png";
 import MobilePrimary from "../../images/icon/services/mobile_primary.png";
 import HostingLight from "../../images/icon/services/hosting_light.png";
 import HostingPrimary from "../../images/icon/services/hosting_primary.png";
-import DevelLight from "../../images/icon/services/development_light.png";
-import DevelPrimary from "../../images/icon/services/development_primary.png";
 
 
 
@@ -152,21 +150,21 @@ export default class ServicesSlick extends Component {
             <div className="icon">
               <img
                 src={HostingLight}
-                alt="Mobile Application Developer"
+                alt="Mobile Application"
                 width={"88px"}
                 height={"53px"}
                 className="img_light"
               />
               <img
                 src={HostingPrimary}
-                alt="Mobile Application Developer"
+                alt="Mobile Application"
                 width={"88px"}
                 height={"53px"}
                 className="img_primary"
               />
 
             </div>
-            <h4>Mobile Application Developer</h4>
+            <h4>Mobile Application</h4>
           </div>
 
 
@@ -175,21 +173,21 @@ export default class ServicesSlick extends Component {
             <div className="icon">
               <img
                 src={HostingLight}
-                alt="E-Commerce Website Design"
+                alt="E-Commerce Website"
                 width={"88px"}
                 height={"53px"}
                 className="img_light"
               />
               <img
                 src={HostingPrimary}
-                alt="E-Commerce Website Design"
+                alt="E-Commerce Website"
                 width={"88px"}
                 height={"53px"}
                 className="img_primary"
               />
 
             </div>
-            <h4>E-Commerce Website Design</h4>
+            <h4>E-Commerce Website</h4>
           </div>
 
           

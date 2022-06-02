@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+
 import Slider from "react-slick";
 import ImageClentOne from "../../images/clients/img_one.png";
 import ImageClentTwo from "../../images/clients/img_two.png";
 import ImageClentThree from "../../images/clients/tbslogo.svg";
-import ImageClentFour from "../../images/clients/img_four.png";
+import ImageClentFour from "../../images/clients/img_four.webp";
 import ImageClentFive from "../../images/clients/img_five.png";
-
+import ImageClentSix from "../../images/clients/img_six.png";
 
 export default class ClientsSlick extends Component {
   render() {
@@ -61,65 +62,55 @@ export default class ClientsSlick extends Component {
           <div className="clients_detiles detiles">
             <p>Success Partners</p>
             <h4>Our Clients</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
-            </p>
           </div>
           <Slider {...settings}>
             <div className="clients__card">
               <div className="img">
-                <img
-                  src={ImageClentOne}
-                  alt="man one"
-                  className="img"
-                />
+                <a href={"https://ongoing-co.com"} target="_blank">
+                  <img src={ImageClentOne} alt="man one" className="img" />
+                </a>
               </div>
             </div>
-            
-            <div className="clients__card">
-              <div className="img">
-                <img
-                  src={ImageClentTwo}
-                  alt="man one"
-                  className="img"
-                />
-              </div>
-            </div>
-
 
             <div className="clients__card">
               <div className="img">
-                <img
-                  src={ImageClentThree}
-                  alt="man one"
-                  className="img"
-                />
+                <a href={"https://indepth-co.com"} target="_blank">
+                  <img src={ImageClentTwo} alt="man one" className="img" />
+                </a>
               </div>
             </div>
-
 
             <div className="clients__card">
               <div className="img">
-                <img
-                  src={ImageClentFour}
-                  alt="man one"
-                  className="img"
-                />
+                <a href={"https://tbs-eg.com"} target="_blank">
+                  <img src={ImageClentThree} alt="man one" className="img" />
+                </a>
               </div>
             </div>
-
 
             <div className="clients__card">
               <div className="img">
-                <img
-                  src={ImageClentFive}
-                  alt="man one"
-                  className="img"
-                />
+                <a href={"https://greendiamondco.com/"} target="_blank">
+                  <img src={ImageClentFour} alt="man one" className="img" />
+                </a>
               </div>
             </div>
 
+            <div className="clients__card">
+              <div className="img">
+                <a href={"www.sadeedco.com/"} target="_blank">
+                  <img src={ImageClentFive} alt="man one" className="img" />
+                </a>
+              </div>
+            </div>
+
+            <div className="clients__card">
+              <div className="img">
+                <a href={"https://beaulthyco.com/"} target="_blank">
+                  <img src={ImageClentSix} alt="man one" className="img" />
+                </a>
+              </div>
+            </div>
           </Slider>
         </div>
       </div>

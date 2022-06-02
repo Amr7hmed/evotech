@@ -18,6 +18,9 @@
 a {
   text-decoration: none;
 }
+body{
+  user-select: none;
+}
 ul {
   margin: 0;
   padding: 0;

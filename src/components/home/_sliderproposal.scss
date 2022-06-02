@@ -52,7 +52,7 @@
           font-weight: 300;
         }
       }
-      button {
+      .btn {
         background-color: rgba(0, 0, 0, 0.5);
         width: 260px;
         height: 57px;
@@ -63,6 +63,7 @@
         text-transform: uppercase;
         border-radius: 57px;
         margin-top: 30px;
+        line-height: 45px;
       }
     }
   }

@@ -33,7 +33,7 @@ function ContactInfo() {
             <span className="icon">
               <FontAwesomeIcon icon={faPhone} />
             </span>
-            <span className="text">Phone : +2 - 877 - 3453 - 3726</span>
+            <span className="text">Phone :+2-877-3453-3726 / 01017866060 </span>
           </li>
           
           <li>
