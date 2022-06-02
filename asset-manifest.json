@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/evotech/static/css/main.8aeef125.chunk.css",
-    "main.js": "/evotech/static/js/main.64bc6f03.chunk.js",
-    "main.js.map": "/evotech/static/js/main.64bc6f03.chunk.js.map",
+    "main.css": "/evotech/static/css/main.7d049e3e.chunk.css",
+    "main.js": "/evotech/static/js/main.667f6b33.chunk.js",
+    "main.js.map": "/evotech/static/js/main.667f6b33.chunk.js.map",
     "runtime-main.js": "/evotech/static/js/runtime-main.d7a35ab0.js",
     "runtime-main.js.map": "/evotech/static/js/runtime-main.d7a35ab0.js.map",
     "static/css/2.8c0e6b67.chunk.css": "/evotech/static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.8c69bfa7.chunk.js": "/evotech/static/js/2.8c69bfa7.chunk.js",
-    "static/js/2.8c69bfa7.chunk.js.map": "/evotech/static/js/2.8c69bfa7.chunk.js.map",
+    "static/js/2.6ec9a8a0.chunk.js": "/evotech/static/js/2.6ec9a8a0.chunk.js",
+    "static/js/2.6ec9a8a0.chunk.js.map": "/evotech/static/js/2.6ec9a8a0.chunk.js.map",
     "static/js/3.28fb5f1f.chunk.js": "/evotech/static/js/3.28fb5f1f.chunk.js",
     "static/js/3.28fb5f1f.chunk.js.map": "/evotech/static/js/3.28fb5f1f.chunk.js.map",
     "index.html": "/evotech/index.html",
     "static/css/2.8c0e6b67.chunk.css.map": "/evotech/static/css/2.8c0e6b67.chunk.css.map",
-    "static/css/main.8aeef125.chunk.css.map": "/evotech/static/css/main.8aeef125.chunk.css.map",
-    "static/js/2.8c69bfa7.chunk.js.LICENSE.txt": "/evotech/static/js/2.8c69bfa7.chunk.js.LICENSE.txt",
-    "static/media/about__section__about.f21d04e9.png": "/evotech/static/media/about__section__about.f21d04e9.png",
-    "static/media/about__section__home.bc8edd20.png": "/evotech/static/media/about__section__home.bc8edd20.png",
+    "static/css/main.7d049e3e.chunk.css.map": "/evotech/static/css/main.7d049e3e.chunk.css.map",
+    "static/js/2.6ec9a8a0.chunk.js.LICENSE.txt": "/evotech/static/js/2.6ec9a8a0.chunk.js.LICENSE.txt",
+    "static/media/about__section__about.9abfd1f3.png": "/evotech/static/media/about__section__about.9abfd1f3.png",
+    "static/media/about__section__home.c39e5047.png": "/evotech/static/media/about__section__home.c39e5047.png",
     "static/media/about_header.c77ddfe3.jpg": "/evotech/static/media/about_header.c77ddfe3.jpg",
     "static/media/blog_header.7eb8162d.jpg": "/evotech/static/media/blog_header.7eb8162d.jpg",
     "static/media/blogslick.f7fe667b.png": "/evotech/static/media/blogslick.f7fe667b.png",
@@ -30,6 +30,8 @@
     "static/media/img_3.39f3d3bf.png": "/evotech/static/media/img_3.39f3d3bf.png",
     "static/media/img_4.60c3d4e6.png": "/evotech/static/media/img_4.60c3d4e6.png",
     "static/media/img_5.76439f1c.png": "/evotech/static/media/img_5.76439f1c.png",
+    "static/media/img_four.de48ba26.webp": "/evotech/static/media/img_four.de48ba26.webp",
+    "static/media/img_six.11790d25.png": "/evotech/static/media/img_six.11790d25.png",
     "static/media/logo-footer.9ec97995.svg": "/evotech/static/media/logo-footer.9ec97995.svg",
     "static/media/logo-header.a79b91e5.svg": "/evotech/static/media/logo-header.a79b91e5.svg",
     "static/media/man_four.cf72ac87.png": "/evotech/static/media/man_four.cf72ac87.png",
@@ -47,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.d7a35ab0.js",
     "static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.8c69bfa7.chunk.js",
-    "static/css/main.8aeef125.chunk.css",
-    "static/js/main.64bc6f03.chunk.js"
+    "static/js/2.6ec9a8a0.chunk.js",
+    "static/css/main.7d049e3e.chunk.css",
+    "static/js/main.667f6b33.chunk.js"
   ]
 }
